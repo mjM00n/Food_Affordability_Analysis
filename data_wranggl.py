@@ -33,3 +33,4 @@ cis = pd.read_excel("Combined_Canadian_Income_Survey.xlsx")
 
 # Changing provincial data in the combined data to strings
 cis.PROV.replace([10, 11, 12, 13, 24, 35, 46, 47, 48, 59, 60, 61, 62, 96, 97, 98, 99], ["Newfoundland and Labrador","Prince Edward Island","Nova Scotia","New Brunswick","Quebec","Ontario","Manitoba","Saskatchewan","Alberta","British Columbia","Yukon","Northwest Territories","Nunavut","NaN","NaN","NaN","NaN"])
+display(cis)
