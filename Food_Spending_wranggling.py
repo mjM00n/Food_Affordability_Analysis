@@ -19,9 +19,10 @@ fs=fs.drop(fs[(fs['Year']<=2018)].index)
 #keep all the rows which are Food purchased from stores and resturant meals
 fs=fs[(fs['Way_to_Spend']=='Food purchased from stores')|(fs['Way_to_Spend']=='Restaurant meals')|(fs['Way_to_Spend']=='Food expenditures')]
 
-#Remove rows of Canada and Atlantic Region and sort them
+#Remove rows of Canada,Atlantic Region and Prairie Regionand sort them
 fs=fs.drop(fs[(fs['Province']=='Canada')].index)
 fs=fs.drop(fs[(fs['Province']=='Atlantic Region')].index)
+fs=fs.drop(fs[(fs['Province']=='Prairie Region')].index)
 
 #put year, province and Way to spend as multiindex
 fs.set_index(['Year','Province','Way_to_Spend'],inplace=True)

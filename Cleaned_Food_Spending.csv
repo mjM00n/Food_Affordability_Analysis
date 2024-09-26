@@ -17,9 +17,6 @@ Year,Province,Way_to_Spend,Value,Unit
 2019,Ontario,Food expenditures,10418.0,Dollars
 2019,Ontario,Food purchased from stores,7603.0,Dollars
 2019,Ontario,Restaurant meals,2469.0,Dollars
-2019,Prairie Region,Food expenditures,10897.0,Dollars
-2019,Prairie Region,Food purchased from stores,7856.0,Dollars
-2019,Prairie Region,Restaurant meals,2666.0,Dollars
 2019,Manitoba,Food expenditures,9957.0,Dollars
 2019,Manitoba,Food purchased from stores,7539.0,Dollars
 2019,Manitoba,Restaurant meals,2123.0,Dollars
@@ -50,9 +47,6 @@ Year,Province,Way_to_Spend,Value,Unit
 2021,Ontario,Food expenditures,9822.0,Dollars
 2021,Ontario,Food purchased from stores,7840.0,Dollars
 2021,Ontario,Restaurant meals,1729.0,Dollars
-2021,Prairie Region,Food expenditures,11461.0,Dollars
-2021,Prairie Region,Food purchased from stores,8793.0,Dollars
-2021,Prairie Region,Restaurant meals,2275.0,Dollars
 2021,Manitoba,Food expenditures,9841.0,Dollars
 2021,Manitoba,Food purchased from stores,7796.0,Dollars
 2021,Manitoba,Restaurant meals,1864.0,Dollars
