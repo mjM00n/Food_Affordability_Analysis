@@ -1,13 +1,13 @@
+import numpy as np
 import pandas as pd
 
-# Load the datasets into python
+# # Load the datasets into python
 files = [
     "Canadian Income Survey, 2018.xlsx",
     "Canadian Income Survey, 2019.xlsx",
     "Canadian Income Survey, 2020.xlsx",
     "Canadian Income Survey, 2021.xlsx"
 ]
-
 # Converting files into dataframes
 dfs = [pd.read_excel(file) for file in files]
 
@@ -22,19 +22,27 @@ for i, df in enumerate(dfs):
 combined_data = pd.concat(dfs, ignore_index=True)
 
 # Sorting By using column "YEAR"
-combined_data['YEAR'] = combined_data['YEAR'].astype(int) # Convert to int if necessary
+combined_data['YEAR'] = combined_data['YEAR'].astype(int)
 combined_data = combined_data.sort_values(by='YEAR')
 
-# saving the combined data set
-combined_data.to_excel("Combined_Canadian_Income_Survey.xlsx", index=False)
+# updating values of columns that is hard to understand, i.e, Province no's to names
+p_names = {
+    10: "Newfoundland and Labrador",
+    11: "Prince Edward Island",
+    12: "Nova Scotia",
+    13: "New Brunswick",
+    24: "Quebec",
+    35: "Ontario",
+    46: "Manitoba",
+    47: "Saskatchewan",
+    48: "Alberta",
+    59: "British Columbia"
+}
 
-# Shortening the notation of the combined data set
-cis = pd.read_excel("Combined_Canadian_Income_Survey.xlsx")
+combined_data = combined_data["PROV"].replace(p_names).where(combined_data["PROV"].isin(p_names.keys()), np.NAN)
 
-# Changing provincial data in the combined data to strings
-<<<<<<< HEAD
-cis.PROV.replace([10, 11, 12, 13, 24, 35, 46, 47, 48, 59, 60, 61, 62, 96, 97, 98, 99], ["Newfoundland and Labrador","Prince Edward Island","Nova Scotia","New Brunswick","Quebec","Ontario","Manitoba","Saskatchewan","Alberta","British Columbia","Yukon","Northwest Territories","Nunavut","NaN","NaN","NaN","NaN"])
-display(cis)
-=======
-cis.PROV.replace([10, 11, 12, 13, 24, 35, 46, 47, 48, 59, 60, 61, 62, 96, 97, 98, 99], ["Newfoundland and Labrador","Prince Edward Island","Nova Scotia","New Brunswick","Quebec","Ontario","Manitoba","Saskatchewan","Alberta","British Columbia","Yukon","Northwest Territories","Nunavut","NaN","NaN","NaN","NaN"])
->>>>>>> 37a685c20fdd373e8646eb2c4f0ca35b3e5b6da2
+# Deleting the rows that have missing values
+combined_data = combined_data.dropna()
+
+combined_data.to_csv("FINAL_CIS")
+
