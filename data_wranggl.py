@@ -3,6 +3,7 @@ import pandas as pd
 
 # # Load the datasets into python
 files = [
+    "Canadian Income Survey, 2017.xlsx",
     "Canadian Income Survey, 2018.xlsx",
     "Canadian Income Survey, 2019.xlsx",
     "Canadian Income Survey, 2020.xlsx",
@@ -43,6 +44,9 @@ combined_data = combined_data["PROV"].replace(p_names).where(combined_data["PROV
 
 # Deleting the rows that have missing values
 combined_data = combined_data.dropna()
+
+# Deleting Duplicates
+combined_data = combined_data.drop_duplicates()
 
 combined_data.to_csv("FINAL_CIS")
 

@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5ab3990-ee40-404d-9039-8a80c714c24e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Food Price Presentation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Food Price Presentation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_wranggl.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_wranggl.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,9 +17,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2ma8LlT2nXwoYaEiyEBIS0IKWI9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,10 +29,50 @@
   "keyToString": {
     "Python.data_wranggl.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging main",
-    "last_opened_file_path": "/Users/Michael/Dropbox/My Mac (Bobby’s MacBook Pro)/Documents/Data_601/Food Price Presentation"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/Michael/Dropbox/My Mac (Bobby’s MacBook Pro)/Documents/Data_601/Food Price Presentation",
+    "settings.editor.selected.configurable": "PyConsoleConfigurable.Python Console"
   }
 }]]></component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="Food Price Presentation" sdk-home="/usr/bin/python3">
+        <option name="sdk">
+          <Sdk />
+        </option>
+        <option name="mySdkHome" value="/usr/bin/python3" />
+        <option name="mySdk">
+          <Sdk />
+        </option>
+        <option name="myModuleName" value="Food Price Presentation" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="data_wranggl" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Food Price Presentation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_wranggl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
