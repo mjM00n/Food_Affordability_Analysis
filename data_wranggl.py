@@ -56,4 +56,12 @@ combined_data = combined_data.drop(columns= ['MBMREGP'])
 # Deleting Duplicates
 combined_data = combined_data.drop_duplicates()
 
-combined_data.to_csv("FINAL_CIS")
+combined_data.to_csv("FINAL_CIS.csv")
+
+CIS_data = pd.read_csv("FINAL_CIS.csv")
+
+FS_data = pd.read_csv("Cleaned_Food_Spending.csv")
+
+combined_CIS_FS = pd.merge(CIS_data, FS_data, how="outer", on=['YEAR', 'PROV'])
+
+combined_CIS_FS.to_csv("CIS_Food_Spending_merged_data.csv")
