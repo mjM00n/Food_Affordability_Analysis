@@ -27,23 +27,23 @@ combined_data['YEAR'] = combined_data['YEAR'].astype(int)
 combined_data = combined_data.sort_values(by='YEAR')
 
 # updating values of columns that is hard to understand, i.e, Province no's to names
-p_names = {
-    10: "Newfoundland and Labrador",
-    11: "Prince Edward Island",
-    12: "Nova Scotia",
-    13: "New Brunswick",
-    24: "Quebec",
-    35: "Ontario",
-    46: "Manitoba",
-    47: "Saskatchewan",
-    48: "Alberta",
-    59: "British Columbia"
-}
+combined_data['PROV'] = combined_data['PROV'].replace(
+    [10, 11, 12, 13, 24, 35, 46, 47,
+     48, 59, 60, 61, 62, 96, 97, 98, 99],
+    ["Newfoundland and Labrador",
+     "Prince Edward Island",
+     "Nova Scotia", "New Brunswick",
+     "Quebec", "Ontario", "Manitoba",
+     "Saskatchewan", "Alberta",
+     "British Columbia","NaN","NaN",
+     "NaN","NaN","NaN","NaN","NaN"], inplace=True)
 
-combined_data = combined_data["PROV"].replace(p_names).where(combined_data["PROV"].isin(p_names.keys()), np.nan)
+# combined_data = combined_data["PROV"].replace(p_names).where(combined_data["PROV"].isin(p_names.keys()), np.nan)
 
-# Deleting the rows that have missing values
-combined_data = combined_data.dropna()
+
+
+# Deleting the MBM Region data
+combined_data = combined_data.drop(columns= ['MBMREGP'])
 
 # Deleting Duplicates
 combined_data = combined_data.drop_duplicates()
