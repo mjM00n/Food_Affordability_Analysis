@@ -40,7 +40,7 @@ p_names = {
     59: "British Columbia"
 }
 
-combined_data = combined_data["PROV"].replace(p_names).where(combined_data["PROV"].isin(p_names.keys()), np.NAN)
+combined_data = combined_data["PROV"].replace(p_names).where(combined_data["PROV"].isin(p_names.keys()), np.nan)
 
 # Deleting the rows that have missing values
 combined_data = combined_data.dropna()
@@ -49,4 +49,3 @@ combined_data = combined_data.dropna()
 combined_data = combined_data.drop_duplicates()
 
 combined_data.to_csv("FINAL_CIS")
-
