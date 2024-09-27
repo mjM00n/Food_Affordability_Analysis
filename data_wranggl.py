@@ -3,6 +3,7 @@ import pandas as pd
 
 # # Load the datasets into python
 files = [
+    "Canadian Income Survey, 2017.xlsx",
     "Canadian Income Survey, 2018.xlsx",
     "Canadian Income Survey, 2019.xlsx",
     "Canadian Income Survey, 2020.xlsx",
@@ -11,10 +12,10 @@ files = [
 # Converting files into dataframes
 dfs = [pd.read_excel(file) for file in files]
 
-# using 2018 dataset to define order of columns
+# using 2017 dataset to define order of columns
 clms = dfs[0].columns.tolist()
 
-# Rearranging columns to match 2018 dataset
+# Rearranging columns to match 2017 dataset
 for i, df in enumerate(dfs):
     dfs[i] = df[clms]
 
@@ -39,12 +40,21 @@ p_names = {
     59: "British Columbia"
 }
 
+
 combined_data['PROV'] = combined_data['PROV'].replace(p_names)
 combined_data['PROV'] = np.where(combined_data['PROV'].isin(p_names.values()), combined_data['PROV'], np.nan)
+
+combined_data = combined_data["PROV"].replace(p_names).where(combined_data["PROV"].isin(p_names.keys()), np.nan)
+
 
 # Deleting the rows that have missing values
 combined_data = combined_data.dropna(subset=['PROV'])
 
-combined_data.to_csv("FINAL_CIS")
+# Deleting Duplicates
+combined_data = combined_data.drop_duplicates()
+
 
 print(combined_data.head())
+
+combined_data.to_csv("FINAL_CIS")
+
