@@ -14,7 +14,7 @@ new_columns=['Year','Province','Way_to_Spend','Value','Unit']
 fs=fs[new_columns]
 
 #remove data with year less than 2017
-fs=fs.drop(fs[(fs['Year']<=2017)].index)
+fs=fs.drop(fs[(fs['Year']<2017)].index)
 
 #keep all the rows which are Food purchased from stores and resturant meals
 fs=fs[(fs['Way_to_Spend']=='Food purchased from stores')|(fs['Way_to_Spend']=='Restaurant meals')|(fs['Way_to_Spend']=='Food expenditures')]
@@ -28,4 +28,4 @@ fs=fs.drop(fs[(fs['Province']=='Prairie Region')].index)
 fs.set_index(['Year','Province','Way_to_Spend'],inplace=True)
 
 #Save as a new file
-fs.to_csv("Cleaned_Food_Spending_2017_2021.csv")
+fs.to_csv("Cleaned_Food_Spending.csv")

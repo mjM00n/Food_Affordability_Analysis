@@ -12,10 +12,10 @@ files = [
 # Converting files into dataframes
 dfs = [pd.read_excel(file) for file in files]
 
-# using 2018 dataset to define order of columns
+# using 2017 dataset to define order of columns
 clms = dfs[0].columns.tolist()
 
-# Rearranging columns to match 2018 dataset
+# Rearranging columns to match 2017 dataset
 for i, df in enumerate(dfs):
     dfs[i] = df[clms]
 
