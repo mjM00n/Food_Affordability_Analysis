@@ -22,22 +22,12 @@ def g_products(product):
             return "Sea Food"
         elif any(p in product for p in ["milk", "cream", "butter", "margarine", "cheese", "yogurt"]):
             return "Dairy Products"
-        elif "potatoes" in product:
-            return "Potatoes"
-        elif "onions" in product:
-            return "Onions"
-        elif "lettuce" in product:
-            return "Lettuce"
+        elif any(p in product for p in ["potatoes", "Onions", "Lettuce", "Peas", "Spinach", "Broccoli", "Beans"]):
+            return "Vegetables"
         elif "bread" in product:
             return "Bread"
-        elif "peas" in product:
-            return "Peas"
         elif "strawberries" in product:
             return "Strawberries"
-        elif "spinach" in product:
-            return "Spinach"
-        elif "broccoli" in product:
-            return "Broccoli"
         elif "corn" in product:
             return "Corn"
         elif "pasta" in product:
@@ -52,8 +42,6 @@ def g_products(product):
             return "Oil"
         elif "juice" in product:
             return "Juice"
-        elif "beans" in product:
-            return "Beans"
     return None
 
 
