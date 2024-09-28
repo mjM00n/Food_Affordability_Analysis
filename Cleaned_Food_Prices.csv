@@ -1,67 +1,529 @@
-GEO,Product,VALUE
-Alberta,Beef,18.741714285714284
-Alberta,Chicken,9.660659340659342
-Alberta,Onions,4.281758241758242
-Alberta,Pork,8.843223443223442
-Alberta,Potatoes,3.9435714285714285
-Alberta,Sea Food,24.196703296703298
-British Columbia,Beef,19.056329670329667
-British Columbia,Chicken,9.762884615384616
-British Columbia,Onions,4.193846153846153
-British Columbia,Pork,8.802820512820514
-British Columbia,Potatoes,4.006813186813186
-British Columbia,Sea Food,25.883296703296704
-Canada,Beef,17.901120879120878
-Canada,Chicken,8.716565934065933
-Canada,Onions,4.491978021978022
-Canada,Pork,7.933736263736264
-Canada,Potatoes,3.913901098901099
-Canada,Sea Food,24.366923076923076
-Manitoba,Beef,18.188175824175826
-Manitoba,Chicken,9.217774725274726
-Manitoba,Onions,4.237252747252747
-Manitoba,Pork,8.493479853479853
-Manitoba,Potatoes,3.8408241758241757
-Manitoba,Sea Food,22.626703296703297
-New Brunswick,Beef,17.36147252747253
-New Brunswick,Chicken,7.79598901098901
-New Brunswick,Onions,5.294505494505494
-New Brunswick,Pork,7.406593406593407
-New Brunswick,Potatoes,4.411208791208791
-New Brunswick,Sea Food,22.427252747252748
-Newfoundland and Labrador,Beef,17.874087912087912
-Newfoundland and Labrador,Chicken,8.060494505494505
-Newfoundland and Labrador,Onions,5.443956043956043
-Newfoundland and Labrador,Pork,7.7065201465201465
-Newfoundland and Labrador,Potatoes,4.752527472527473
-Newfoundland and Labrador,Sea Food,22.49912087912088
-Nova Scotia,Beef,17.237714285714286
-Nova Scotia,Chicken,7.911758241758242
-Nova Scotia,Onions,5.313626373626374
-Nova Scotia,Pork,7.549120879120879
-Nova Scotia,Potatoes,4.226208791208791
-Nova Scotia,Sea Food,22.52076923076923
-Ontario,Beef,17.810439560439562
-Ontario,Chicken,8.69401098901099
-Ontario,Onions,4.6608791208791205
-Ontario,Pork,7.842527472527472
-Ontario,Potatoes,3.8517582417582417
-Ontario,Sea Food,25.6367032967033
-Prince Edward Island,Beef,17.54986813186813
-Prince Edward Island,Chicken,7.972335164835164
-Prince Edward Island,Onions,5.3343956043956045
-Prince Edward Island,Pork,7.628791208791208
-Prince Edward Island,Potatoes,4.383571428571428
-Prince Edward Island,Sea Food,22.549340659340658
-Quebec,Beef,21.044835164835163
-Quebec,Chicken,8.696785714285715
-Quebec,Onions,4.388901098901099
-Quebec,Pork,8.234578754578754
-Quebec,Potatoes,4.073571428571428
-Quebec,Sea Food,23.860659340659343
-Saskatchewan,Beef,17.5061978021978
-Saskatchewan,Chicken,8.984423076923077
-Saskatchewan,Onions,4.2725274725274724
-Saskatchewan,Pork,8.228461538461538
-Saskatchewan,Potatoes,4.033241758241758
-Saskatchewan,Sea Food,21.770549450549453
+YEAR,GEO,Product,VALUE
+2017,Alberta,Beef,15.862166666666667
+2017,Alberta,Chicken,8.858958333333334
+2017,Alberta,Onions,3.2550000000000003
+2017,Alberta,Pork,8.591944444444444
+2017,Alberta,Potatoes,2.7620833333333334
+2017,Alberta,Sea Food,22.334999999999997
+2017,British Columbia,Beef,15.831666666666667
+2017,British Columbia,Chicken,8.819583333333334
+2017,British Columbia,Onions,3.075833333333333
+2017,British Columbia,Pork,8.453333333333333
+2017,British Columbia,Potatoes,2.9320833333333334
+2017,British Columbia,Sea Food,23.52333333333333
+2017,Canada,Beef,15.663833333333335
+2017,Canada,Chicken,8.052083333333334
+2017,Canada,Onions,3.4475
+2017,Canada,Pork,7.154999999999999
+2017,Canada,Potatoes,3.1012500000000003
+2017,Canada,Sea Food,22.618333333333336
+2017,Manitoba,Beef,15.209333333333335
+2017,Manitoba,Chicken,8.420416666666666
+2017,Manitoba,Onions,3.231666666666667
+2017,Manitoba,Pork,8.348888888888888
+2017,Manitoba,Potatoes,2.72125
+2017,Manitoba,Sea Food,21.019166666666667
+2017,New Brunswick,Beef,15.001333333333333
+2017,New Brunswick,Chicken,7.550416666666667
+2017,New Brunswick,Onions,4.7025
+2017,New Brunswick,Pork,6.265833333333333
+2017,New Brunswick,Potatoes,4.010416666666667
+2017,New Brunswick,Sea Food,20.108333333333334
+2017,Newfoundland and Labrador,Beef,15.6165
+2017,Newfoundland and Labrador,Chicken,7.725208333333334
+2017,Newfoundland and Labrador,Onions,5.129166666666666
+2017,Newfoundland and Labrador,Pork,6.463055555555555
+2017,Newfoundland and Labrador,Potatoes,4.367500000000001
+2017,Newfoundland and Labrador,Sea Food,20.394166666666667
+2017,Nova Scotia,Beef,14.932666666666668
+2017,Nova Scotia,Chicken,7.490833333333334
+2017,Nova Scotia,Onions,4.814166666666667
+2017,Nova Scotia,Pork,6.333888888888889
+2017,Nova Scotia,Potatoes,3.7533333333333334
+2017,Nova Scotia,Sea Food,19.663333333333334
+2017,Ontario,Beef,16.192
+2017,Ontario,Chicken,7.77875
+2017,Ontario,Onions,3.638333333333333
+2017,Ontario,Pork,6.911666666666666
+2017,Ontario,Potatoes,3.1795833333333334
+2017,Ontario,Sea Food,24.2675
+2017,Prince Edward Island,Beef,15.094666666666665
+2017,Prince Edward Island,Chicken,7.392291666666666
+2017,Prince Edward Island,Onions,4.8025
+2017,Prince Edward Island,Pork,6.354444444444444
+2017,Prince Edward Island,Potatoes,3.92
+2017,Prince Edward Island,Sea Food,19.86
+2017,Quebec,Beef,18.15583333333333
+2017,Quebec,Chicken,8.37875
+2017,Quebec,Onions,3.1666666666666665
+2017,Quebec,Pork,7.36361111111111
+2017,Quebec,Potatoes,3.475
+2017,Quebec,Sea Food,22.454166666666666
+2017,Saskatchewan,Beef,14.899833333333333
+2017,Saskatchewan,Chicken,8.348125
+2017,Saskatchewan,Onions,3.1650000000000005
+2017,Saskatchewan,Pork,8.212222222222222
+2017,Saskatchewan,Potatoes,2.7795833333333335
+2017,Saskatchewan,Sea Food,20.116666666666667
+2018,Alberta,Beef,15.854166666666666
+2018,Alberta,Chicken,9.067083333333334
+2018,Alberta,Onions,3.233333333333333
+2018,Alberta,Pork,8.135277777777778
+2018,Alberta,Potatoes,3.0554166666666664
+2018,Alberta,Sea Food,23.42
+2018,British Columbia,Beef,16.078166666666668
+2018,British Columbia,Chicken,9.065208333333333
+2018,British Columbia,Onions,3.195
+2018,British Columbia,Pork,7.977222222222222
+2018,British Columbia,Potatoes,3.220833333333333
+2018,British Columbia,Sea Food,25.025000000000002
+2018,Canada,Beef,15.221
+2018,Canada,Chicken,8.069583333333332
+2018,Canada,Onions,3.6983333333333337
+2018,Canada,Pork,7.078333333333333
+2018,Canada,Potatoes,3.43625
+2018,Canada,Sea Food,23.079166666666666
+2018,Manitoba,Beef,15.225333333333333
+2018,Manitoba,Chicken,8.641666666666667
+2018,Manitoba,Onions,3.188333333333333
+2018,Manitoba,Pork,7.866944444444444
+2018,Manitoba,Potatoes,3.05875
+2018,Manitoba,Sea Food,21.94333333333333
+2018,New Brunswick,Beef,14.727
+2018,New Brunswick,Chicken,6.913541666666667
+2018,New Brunswick,Onions,4.870833333333333
+2018,New Brunswick,Pork,6.634166666666667
+2018,New Brunswick,Potatoes,4.16625
+2018,New Brunswick,Sea Food,20.411666666666665
+2018,Newfoundland and Labrador,Beef,14.749166666666667
+2018,Newfoundland and Labrador,Chicken,7.315625
+2018,Newfoundland and Labrador,Onions,5.068333333333333
+2018,Newfoundland and Labrador,Pork,6.9430555555555555
+2018,Newfoundland and Labrador,Potatoes,4.38375
+2018,Newfoundland and Labrador,Sea Food,20.385833333333334
+2018,Nova Scotia,Beef,14.4965
+2018,Nova Scotia,Chicken,6.956041666666667
+2018,Nova Scotia,Onions,4.954166666666667
+2018,Nova Scotia,Pork,6.8677777777777775
+2018,Nova Scotia,Potatoes,3.9591666666666665
+2018,Nova Scotia,Sea Food,20.1375
+2018,Ontario,Beef,15.233666666666666
+2018,Ontario,Chicken,7.836041666666667
+2018,Ontario,Onions,4.09
+2018,Ontario,Pork,6.9336111111111105
+2018,Ontario,Potatoes,3.567083333333333
+2018,Ontario,Sea Food,24.627499999999998
+2018,Prince Edward Island,Beef,14.849166666666667
+2018,Prince Edward Island,Chicken,6.956458333333334
+2018,Prince Edward Island,Onions,5.016666666666667
+2018,Prince Edward Island,Pork,6.890277777777778
+2018,Prince Edward Island,Potatoes,4.2575
+2018,Prince Edward Island,Sea Food,20.279999999999998
+2018,Quebec,Beef,18.061833333333333
+2018,Quebec,Chicken,8.316041666666667
+2018,Quebec,Onions,3.4783333333333335
+2018,Quebec,Pork,7.330277777777777
+2018,Quebec,Potatoes,3.6591666666666662
+2018,Quebec,Sea Food,22.203333333333333
+2018,Saskatchewan,Beef,14.897666666666668
+2018,Saskatchewan,Chicken,8.33875
+2018,Saskatchewan,Onions,3.195
+2018,Saskatchewan,Pork,7.585555555555555
+2018,Saskatchewan,Potatoes,3.1454166666666663
+2018,Saskatchewan,Sea Food,21.33666666666667
+2019,Alberta,Beef,17.181166666666666
+2019,Alberta,Chicken,8.952291666666666
+2019,Alberta,Onions,3.9466666666666668
+2019,Alberta,Pork,8.615555555555556
+2019,Alberta,Potatoes,3.8179166666666666
+2019,Alberta,Sea Food,24.680000000000003
+2019,British Columbia,Beef,17.035999999999998
+2019,British Columbia,Chicken,8.937916666666666
+2019,British Columbia,Onions,3.77
+2019,British Columbia,Pork,8.5175
+2019,British Columbia,Potatoes,3.7783333333333338
+2019,British Columbia,Sea Food,27.02
+2019,Canada,Beef,15.682166666666665
+2019,Canada,Chicken,8.101875
+2019,Canada,Onions,4.305
+2019,Canada,Pork,7.62
+2019,Canada,Potatoes,3.829166666666666
+2019,Canada,Sea Food,24.11916666666667
+2019,Manitoba,Beef,16.505666666666666
+2019,Manitoba,Chicken,8.4275
+2019,Manitoba,Onions,3.8775
+2019,Manitoba,Pork,8.059166666666666
+2019,Manitoba,Potatoes,3.61875
+2019,Manitoba,Sea Food,23.228333333333335
+2019,New Brunswick,Beef,14.895333333333333
+2019,New Brunswick,Chicken,7.5164583333333335
+2019,New Brunswick,Onions,5.121666666666667
+2019,New Brunswick,Pork,6.779722222222222
+2019,New Brunswick,Potatoes,4.404583333333334
+2019,New Brunswick,Sea Food,21.016666666666666
+2019,Newfoundland and Labrador,Beef,14.9915
+2019,Newfoundland and Labrador,Chicken,7.535208333333333
+2019,Newfoundland and Labrador,Onions,5.22
+2019,Newfoundland and Labrador,Pork,7.22111111111111
+2019,Newfoundland and Labrador,Potatoes,4.644583333333333
+2019,Newfoundland and Labrador,Sea Food,20.515833333333333
+2019,Nova Scotia,Beef,14.700666666666667
+2019,Nova Scotia,Chicken,7.6325
+2019,Nova Scotia,Onions,5.059166666666667
+2019,Nova Scotia,Pork,7.056111111111111
+2019,Nova Scotia,Potatoes,4.226666666666667
+2019,Nova Scotia,Sea Food,20.673333333333332
+2019,Ontario,Beef,15.388166666666667
+2019,Ontario,Chicken,7.900625000000001
+2019,Ontario,Onions,4.5183333333333335
+2019,Ontario,Pork,7.824999999999999
+2019,Ontario,Potatoes,3.7729166666666667
+2019,Ontario,Sea Food,24.854166666666668
+2019,Prince Edward Island,Beef,14.964833333333333
+2019,Prince Edward Island,Chicken,7.805625
+2019,Prince Edward Island,Onions,5.08
+2019,Prince Edward Island,Pork,7.2041666666666675
+2019,Prince Edward Island,Potatoes,4.48125
+2019,Prince Edward Island,Sea Food,20.715
+2019,Quebec,Beef,18.81833333333333
+2019,Quebec,Chicken,8.250416666666666
+2019,Quebec,Onions,4.6375
+2019,Quebec,Pork,7.508055555555556
+2019,Quebec,Potatoes,4.180833333333333
+2019,Quebec,Sea Food,23.710833333333337
+2019,Saskatchewan,Beef,15.873
+2019,Saskatchewan,Chicken,8.197708333333333
+2019,Saskatchewan,Onions,3.954166666666667
+2019,Saskatchewan,Pork,8.043888888888889
+2019,Saskatchewan,Potatoes,3.967916666666667
+2019,Saskatchewan,Sea Food,23.000833333333333
+2020,Alberta,Beef,18.702833333333334
+2020,Alberta,Chicken,9.205
+2020,Alberta,Onions,4.0525
+2020,Alberta,Pork,8.679722222222223
+2020,Alberta,Potatoes,4.1066666666666665
+2020,Alberta,Sea Food,22.770833333333332
+2020,British Columbia,Beef,18.846833333333333
+2020,British Columbia,Chicken,9.181458333333333
+2020,British Columbia,Onions,3.9375
+2020,British Columbia,Pork,8.56611111111111
+2020,British Columbia,Potatoes,4.074583333333334
+2020,British Columbia,Sea Food,24.620833333333334
+2020,Canada,Beef,17.216666666666665
+2020,Canada,Chicken,8.399375000000001
+2020,Canada,Onions,4.2749999999999995
+2020,Canada,Pork,7.830277777777777
+2020,Canada,Potatoes,3.95375
+2020,Canada,Sea Food,22.61
+2020,Manitoba,Beef,18.386166666666668
+2020,Manitoba,Chicken,8.770416666666668
+2020,Manitoba,Onions,4.010833333333333
+2020,Manitoba,Pork,8.354166666666666
+2020,Manitoba,Potatoes,3.932916666666667
+2020,Manitoba,Sea Food,21.772499999999997
+2020,New Brunswick,Beef,16.259166666666665
+2020,New Brunswick,Chicken,7.135833333333333
+2020,New Brunswick,Onions,4.865
+2020,New Brunswick,Pork,7.149444444444445
+2020,New Brunswick,Potatoes,4.3075
+2020,New Brunswick,Sea Food,20.911666666666665
+2020,Newfoundland and Labrador,Beef,17.332333333333334
+2020,Newfoundland and Labrador,Chicken,7.622083333333333
+2020,Newfoundland and Labrador,Onions,4.944166666666667
+2020,Newfoundland and Labrador,Pork,7.638888888888889
+2020,Newfoundland and Labrador,Potatoes,4.76375
+2020,Newfoundland and Labrador,Sea Food,21.511666666666667
+2020,Nova Scotia,Beef,16.233999999999998
+2020,Nova Scotia,Chicken,7.185208333333333
+2020,Nova Scotia,Onions,4.861666666666667
+2020,Nova Scotia,Pork,7.3244444444444445
+2020,Nova Scotia,Potatoes,4.196666666666666
+2020,Nova Scotia,Sea Food,20.857499999999998
+2020,Ontario,Beef,16.793666666666667
+2020,Ontario,Chicken,8.49375
+2020,Ontario,Onions,4.4174999999999995
+2020,Ontario,Pork,7.615833333333334
+2020,Ontario,Potatoes,3.8175000000000003
+2020,Ontario,Sea Food,23.6775
+2020,Prince Edward Island,Beef,16.542166666666667
+2020,Prince Edward Island,Chicken,7.222291666666667
+2020,Prince Edward Island,Onions,4.815833333333333
+2020,Prince Edward Island,Pork,7.364166666666667
+2020,Prince Edward Island,Potatoes,4.251666666666667
+2020,Prince Edward Island,Sea Food,20.783333333333335
+2020,Quebec,Beef,19.70716666666667
+2020,Quebec,Chicken,8.502291666666666
+2020,Quebec,Onions,4.395833333333333
+2020,Quebec,Pork,8.337499999999999
+2020,Quebec,Potatoes,4.3075
+2020,Quebec,Sea Food,21.72666666666667
+2020,Saskatchewan,Beef,17.2875
+2020,Saskatchewan,Chicken,8.313125
+2020,Saskatchewan,Onions,4.101666666666667
+2020,Saskatchewan,Pork,7.91
+2020,Saskatchewan,Potatoes,4.167916666666667
+2020,Saskatchewan,Sea Food,21.324166666666667
+2021,Alberta,Beef,19.050166666666666
+2021,Alberta,Chicken,9.425208333333334
+2021,Alberta,Onions,4.218333333333333
+2021,Alberta,Pork,9.099166666666667
+2021,Alberta,Potatoes,4.08
+2021,Alberta,Sea Food,22.985833333333332
+2021,British Columbia,Beef,19.46216666666667
+2021,British Columbia,Chicken,9.541458333333333
+2021,British Columbia,Onions,4.155
+2021,British Columbia,Pork,9.03361111111111
+2021,British Columbia,Potatoes,4.135833333333333
+2021,British Columbia,Sea Food,25.069999999999997
+2021,Canada,Beef,18.333833333333335
+2021,Canada,Chicken,8.689166666666667
+2021,Canada,Onions,4.331666666666667
+2021,Canada,Pork,8.5125
+2021,Canada,Potatoes,3.9595833333333332
+2021,Canada,Sea Food,23.497500000000002
+2021,Manitoba,Beef,18.637166666666666
+2021,Manitoba,Chicken,8.937291666666667
+2021,Manitoba,Onions,4.14
+2021,Manitoba,Pork,8.678055555555556
+2021,Manitoba,Potatoes,3.93125
+2021,Manitoba,Sea Food,22.390833333333333
+2021,New Brunswick,Beef,17.970000000000002
+2021,New Brunswick,Chicken,7.567291666666667
+2021,New Brunswick,Onions,4.921666666666667
+2021,New Brunswick,Pork,7.851111111111111
+2021,New Brunswick,Potatoes,4.367083333333333
+2021,New Brunswick,Sea Food,22.275000000000002
+2021,Newfoundland and Labrador,Beef,18.724666666666668
+2021,Newfoundland and Labrador,Chicken,7.995208333333333
+2021,Newfoundland and Labrador,Onions,5.139166666666667
+2021,Newfoundland and Labrador,Pork,8.186944444444444
+2021,Newfoundland and Labrador,Potatoes,4.7075000000000005
+2021,Newfoundland and Labrador,Sea Food,21.9025
+2021,Nova Scotia,Beef,17.7985
+2021,Nova Scotia,Chicken,7.750624999999999
+2021,Nova Scotia,Onions,4.935833333333333
+2021,Nova Scotia,Pork,7.998333333333333
+2021,Nova Scotia,Potatoes,4.237916666666667
+2021,Nova Scotia,Sea Food,22.503333333333334
+2021,Ontario,Beef,17.85983333333333
+2021,Ontario,Chicken,8.868541666666667
+2021,Ontario,Onions,4.4025
+2021,Ontario,Pork,8.601944444444445
+2021,Ontario,Potatoes,3.86
+2021,Ontario,Sea Food,24.8925
+2021,Prince Edward Island,Beef,18.19783333333333
+2021,Prince Edward Island,Chicken,7.847083333333333
+2021,Prince Edward Island,Onions,4.946666666666666
+2021,Prince Edward Island,Pork,8.118611111111111
+2021,Prince Edward Island,Potatoes,4.425
+2021,Prince Edward Island,Sea Food,22.011666666666667
+2021,Quebec,Beef,22.581833333333336
+2021,Quebec,Chicken,8.431458333333333
+2021,Quebec,Onions,4.248333333333333
+2021,Quebec,Pork,9.060555555555556
+2021,Quebec,Potatoes,4.126666666666666
+2021,Quebec,Sea Food,22.536666666666665
+2021,Saskatchewan,Beef,17.824666666666666
+2021,Saskatchewan,Chicken,8.762916666666667
+2021,Saskatchewan,Onions,4.184166666666667
+2021,Saskatchewan,Pork,8.287777777777778
+2021,Saskatchewan,Potatoes,4.1187499999999995
+2021,Saskatchewan,Sea Food,21.67
+2022,Alberta,Beef,20.588
+2022,Alberta,Chicken,10.268958333333334
+2022,Alberta,Onions,5.096666666666667
+2022,Alberta,Pork,9.256666666666668
+2022,Alberta,Potatoes,4.355833333333334
+2022,Alberta,Sea Food,25.450833333333335
+2022,British Columbia,Beef,21.058833333333332
+2022,British Columbia,Chicken,10.595
+2022,British Columbia,Onions,4.996666666666667
+2022,British Columbia,Pork,9.369166666666667
+2022,British Columbia,Potatoes,4.4275
+2022,British Columbia,Sea Food,27.360833333333332
+2022,Canada,Beef,19.74116666666667
+2022,Canada,Chicken,9.567083333333334
+2022,Canada,Onions,5.270833333333333
+2022,Canada,Pork,8.641388888888889
+2022,Canada,Potatoes,4.194583333333333
+2022,Canada,Sea Food,26.37
+2022,Manitoba,Beef,20.076833333333333
+2022,Manitoba,Chicken,9.84375
+2022,Manitoba,Onions,5.066666666666666
+2022,Manitoba,Pork,9.017777777777777
+2022,Manitoba,Potatoes,4.265416666666667
+2022,Manitoba,Sea Food,23.703333333333333
+2022,New Brunswick,Beef,19.151
+2022,New Brunswick,Chicken,8.514791666666666
+2022,New Brunswick,Onions,5.82
+2022,New Brunswick,Pork,7.960555555555555
+2022,New Brunswick,Potatoes,4.494166666666667
+2022,New Brunswick,Sea Food,24.765833333333333
+2022,Newfoundland and Labrador,Beef,19.30816666666667
+2022,Newfoundland and Labrador,Chicken,8.502916666666666
+2022,Newfoundland and Labrador,Onions,5.739166666666667
+2022,Newfoundland and Labrador,Pork,8.297777777777776
+2022,Newfoundland and Labrador,Potatoes,4.8950000000000005
+2022,Newfoundland and Labrador,Sea Food,24.464166666666667
+2022,Nova Scotia,Beef,19.019000000000002
+2022,Nova Scotia,Chicken,8.754375000000001
+2022,Nova Scotia,Onions,5.834166666666667
+2022,Nova Scotia,Pork,8.051944444444445
+2022,Nova Scotia,Potatoes,4.33375
+2022,Nova Scotia,Sea Food,25.1375
+2022,Ontario,Beef,19.524166666666666
+2022,Ontario,Chicken,9.842916666666666
+2022,Ontario,Onions,5.5008333333333335
+2022,Ontario,Pork,8.63638888888889
+2022,Ontario,Potatoes,4.090416666666667
+2022,Ontario,Sea Food,28.246666666666666
+2022,Prince Edward Island,Beef,19.411833333333334
+2022,Prince Edward Island,Chicken,8.901458333333332
+2022,Prince Edward Island,Onions,5.879166666666666
+2022,Prince Edward Island,Pork,8.215
+2022,Prince Edward Island,Potatoes,4.530833333333333
+2022,Prince Edward Island,Sea Food,25.615
+2022,Quebec,Beef,24.084166666666665
+2022,Quebec,Chicken,9.389999999999999
+2022,Quebec,Onions,5.010000000000001
+2022,Quebec,Pork,9.171666666666667
+2022,Quebec,Potatoes,4.1120833333333335
+2022,Quebec,Sea Food,25.828333333333333
+2022,Saskatchewan,Beef,19.296333333333333
+2022,Saskatchewan,Chicken,9.771666666666667
+2022,Saskatchewan,Onions,5.1075
+2022,Saskatchewan,Pork,8.615
+2022,Saskatchewan,Potatoes,4.536666666666666
+2022,Saskatchewan,Sea Food,22.143333333333334
+2023,Alberta,Beef,21.34733333333333
+2023,Alberta,Chicken,11.117916666666666
+2023,Alberta,Onions,5.399166666666667
+2023,Alberta,Pork,9.117777777777778
+2023,Alberta,Potatoes,4.8341666666666665
+2023,Alberta,Sea Food,25.84
+2023,British Columbia,Beef,22.223333333333336
+2023,British Columbia,Chicken,11.3825
+2023,British Columbia,Onions,5.4325
+2023,British Columbia,Pork,9.22888888888889
+2023,British Columbia,Potatoes,4.85625
+2023,British Columbia,Sea Food,27.228333333333335
+2023,Canada,Beef,21.07633333333333
+2023,Canada,Chicken,9.854375
+2023,Canada,Onions,5.333333333333333
+2023,Canada,Pork,8.29888888888889
+2023,Canada,Potatoes,4.53625
+2023,Canada,Sea Food,26.825833333333335
+2023,Manitoba,Beef,20.806333333333335
+2023,Manitoba,Chicken,10.657291666666667
+2023,Manitoba,Onions,5.379166666666666
+2023,Manitoba,Pork,8.755277777777778
+2023,Manitoba,Potatoes,4.738333333333333
+2023,Manitoba,Sea Food,23.138333333333335
+2023,New Brunswick,Beef,20.55183333333333
+2023,New Brunswick,Chicken,8.86375
+2023,New Brunswick,Onions,5.8741666666666665
+2023,New Brunswick,Pork,8.416944444444445
+2023,New Brunswick,Potatoes,4.7437499999999995
+2023,New Brunswick,Sea Food,25.439999999999998
+2023,Newfoundland and Labrador,Beef,21.226499999999998
+2023,Newfoundland and Labrador,Chicken,9.109583333333333
+2023,Newfoundland and Labrador,Onions,5.986666666666667
+2023,Newfoundland and Labrador,Pork,8.45722222222222
+2023,Newfoundland and Labrador,Potatoes,5.159583333333333
+2023,Newfoundland and Labrador,Sea Food,26.0625
+2023,Nova Scotia,Beef,20.600833333333334
+2023,Nova Scotia,Chicken,9.078125
+2023,Nova Scotia,Onions,5.891666666666667
+2023,Nova Scotia,Pork,8.425
+2023,Nova Scotia,Potatoes,4.475833333333333
+2023,Nova Scotia,Sea Food,26.305000000000003
+2023,Ontario,Beef,21.591166666666666
+2023,Ontario,Chicken,9.913958333333333
+2023,Ontario,Onions,5.400833333333334
+2023,Ontario,Pork,8.025555555555556
+2023,Ontario,Potatoes,4.35375
+2023,Ontario,Sea Food,27.87
+2023,Prince Edward Island,Beef,20.871166666666667
+2023,Prince Edward Island,Chicken,9.165833333333333
+2023,Prince Edward Island,Onions,5.941666666666666
+2023,Prince Edward Island,Pork,8.538888888888888
+2023,Prince Edward Island,Potatoes,4.651666666666666
+2023,Prince Edward Island,Sea Food,26.125
+2023,Quebec,Beef,24.824166666666667
+2023,Quebec,Chicken,9.469166666666666
+2023,Quebec,Onions,4.695833333333334
+2023,Quebec,Pork,8.709722222222222
+2023,Quebec,Potatoes,4.4991666666666665
+2023,Quebec,Sea Food,27.16
+2023,Saskatchewan,Beef,20.147
+2023,Saskatchewan,Chicken,10.295833333333333
+2023,Saskatchewan,Onions,5.4675
+2023,Saskatchewan,Pork,8.476388888888888
+2023,Saskatchewan,Potatoes,4.9775
+2023,Saskatchewan,Sea Food,21.835833333333337
+2024,Alberta,Beef,23.20942857142857
+2024,Alberta,Chicken,10.910714285714286
+2024,Alberta,Onions,5.602857142857142
+2024,Alberta,Pork,9.540000000000001
+2024,Alberta,Potatoes,4.96
+2024,Alberta,Sea Food,27.444285714285716
+2024,British Columbia,Beef,23.954571428571427
+2024,British Columbia,Chicken,11.163571428571428
+2024,British Columbia,Onions,5.555714285714286
+2024,British Columbia,Pork,9.615238095238094
+2024,British Columbia,Potatoes,5.073571428571428
+2024,British Columbia,Sea Food,28.17142857142857
+2024,Canada,Beef,21.968857142857143
+2024,Canada,Chicken,9.200714285714286
+2024,Canada,Onions,5.832857142857143
+2024,Canada,Pork,8.619047619047619
+2024,Canada,Potatoes,4.576428571428572
+2024,Canada,Sea Food,26.849999999999998
+2024,Manitoba,Beef,22.423142857142857
+2024,Manitoba,Chicken,10.633928571428571
+2024,Manitoba,Onions,5.551428571428572
+2024,Manitoba,Pork,9.134761904761904
+2024,Manitoba,Potatoes,4.902142857142857
+2024,Manitoba,Sea Food,24.66857142857143
+2024,New Brunswick,Beef,22.460857142857144
+2024,New Brunswick,Chicken,8.67
+2024,New Brunswick,Onions,6.812857142857142
+2024,New Brunswick,Pork,8.758095238095237
+2024,New Brunswick,Potatoes,5.070714285714286
+2024,New Brunswick,Sea Food,25.96142857142857
+2024,Newfoundland and Labrador,Beef,23.308
+2024,Newfoundland and Labrador,Chicken,9.119285714285715
+2024,Newfoundland and Labrador,Onions,6.954285714285715
+2024,Newfoundland and Labrador,Pork,8.97095238095238
+2024,Newfoundland and Labrador,Potatoes,5.345714285714286
+2024,Newfoundland and Labrador,Sea Food,26.368571428571425
+2024,Nova Scotia,Beef,22.178
+2024,Nova Scotia,Chicken,8.828214285714285
+2024,Nova Scotia,Onions,6.761428571428572
+2024,Nova Scotia,Pork,8.897142857142857
+2024,Nova Scotia,Potatoes,4.9121428571428565
+2024,Nova Scotia,Sea Food,26.580000000000002
+2024,Ontario,Beef,21.394
+2024,Ontario,Chicken,9.077142857142857
+2024,Ontario,Onions,5.788571428571428
+2024,Ontario,Pork,8.438571428571429
+2024,Ontario,Potatoes,4.402142857142858
+2024,Ontario,Sea Food,27.38714285714286
+2024,Prince Edward Island,Beef,22.551142857142857
+2024,Prince Edward Island,Chicken,8.855714285714287
+2024,Prince Edward Island,Onions,6.805714285714286
+2024,Prince Edward Island,Pork,8.856190476190477
+2024,Prince Edward Island,Potatoes,4.67
+2024,Prince Edward Island,Sea Food,26.75857142857143
+2024,Quebec,Beef,22.897142857142857
+2024,Quebec,Chicken,8.935714285714285
+2024,Quebec,Onions,6.257142857142857
+2024,Quebec,Pork,8.51
+2024,Quebec,Potatoes,4.338571428571429
+2024,Quebec,Sea Food,26.268571428571427
+2024,Saskatchewan,Beef,21.47885714285714
+2024,Saskatchewan,Chicken,10.463571428571429
+2024,Saskatchewan,Onions,5.528571428571429
+2024,Saskatchewan,Pork,9.031428571428572
+2024,Saskatchewan,Potatoes,4.957142857142857
+2024,Saskatchewan,Sea Food,23.427142857142858

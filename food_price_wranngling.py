@@ -5,6 +5,7 @@ df = pd.read_csv("Food Prices.csv")
 
 # Splitting "Products" column into product and quantity
 df[['Product', 'Quantity']] = df['Products'].str.extract(r'(.+), per (.+)', expand=True)
+df['YEAR'] = pd.to_datetime(df['REF_DATE']).dt.year
 
 
 # Generalising products
@@ -88,8 +89,8 @@ def convert_quantity(row):
 # quantity conversion using defined fun
 df[['VALUE', 'Quantity']] = df.apply(convert_quantity, axis=1, result_type='expand')
 
-# Grouping by product and geo and calculating average value
-df_grouped = df.groupby(['GEO', 'Product']).agg({'VALUE': 'mean'}).reset_index()
+# Grouping by product, GEO, and year, and calculating the average value
+df_grouped = df.groupby(['YEAR', 'GEO', 'Product']).agg({'VALUE': 'mean'}).reset_index()
 
 df_grouped.to_csv('Cleaned_Food_Prices.csv', index=False)
 
