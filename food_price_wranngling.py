@@ -89,8 +89,10 @@ def convert_quantity(row):
 # quantity conversion using defined fun
 df[['VALUE', 'Quantity']] = df.apply(convert_quantity, axis=1, result_type='expand')
 
+
 # Grouping by product, GEO, and year, and calculating the average value
 df_grouped = df.groupby(['YEAR', 'GEO', 'Product']).agg({'VALUE': 'mean'}).reset_index()
+df_grouped["VALUE"] = df_grouped["VALUE"].round(2)
 
 df_grouped.to_csv('Cleaned_Food_Prices.csv', index=False)
 
