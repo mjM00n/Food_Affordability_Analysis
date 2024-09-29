@@ -3,85 +3,67 @@ import re
 
 df = pd.read_csv("Food Prices.csv")
 
-# Splitting "Products" column into product and quantity
-df[['Product', 'Quantity']] = df['Products'].str.extract(r'(.+), per (.+)', expand=True)
-df['YEAR'] = pd.to_datetime(df['REF_DATE']).dt.year
+df[['pn', 'quantity']] = df['Products'].str.extract(r'(.+), per (.+)', expand=True)
+df['year'] = pd.to_datetime(df['REF_DATE']).dt.year
 
+df = df[df['year'] == 2023]
 
-# Generalising products
-def g_products(product):
-    if isinstance(product, str):
-        product = product.lower()
-        if "beef" in product:
-            return "Beef"
-        elif "chicken" in product:
-            return "Chicken"
-        elif any(p in product for p in ["pork", "bacon", "wieners"]):
-            return "Pork"
-        elif any(p in product for p in ["salmon", "tuna", "shrimp"]):
-            return "Sea Food"
-        elif any(p in product for p in ["milk", "cream", "butter", "margarine", "cheese", "yogurt"]):
-            return "Dairy Products"
-        elif any(p in product for p in ["potatoes", "Onions", "Lettuce", "Peas", "Spinach", "Broccoli", "Beans"]):
-            return "Vegetables"
-        elif "bread" in product:
-            return "Bread"
-        elif "strawberries" in product:
-            return "Strawberries"
-        elif "corn" in product:
-            return "Corn"
-        elif "pasta" in product:
-            return "Pasta"
-        elif "rice" in product:
-            return "Rice"
-        elif "flour" in product:
-            return "Flour"
-        elif "sugar" in product:
-            return "Sugar"
-        elif "oil" in product:
-            return "Oil"
-        elif "juice" in product:
-            return "Juice"
-    return None
+def cp(pn):
+    if isinstance(pn, str):
+        pn = pn.lower().strip()
+        if any(keyword in pn for keyword in ['beef', 'chicken', 'pork', 'salmon', 'tuna', 'shrimp']):
+            return "Meat"
+        categories = {
+            "Dairy products": ["milk", "cream", "butter", "margarine", "cheese", "yogurt", "whipping", "sour cream",
+                               "skim milk"],
+            "Vegetables": ["potato", "onion", "lettuce", "peas", "spinach", "broccoli", "beans", "corn", "tomato",
+                           "cabbage", "pepper"],
+            "Bread": ["bread"],
+            "Eggs": ["eggs"],
+            "Pasta": ["pasta"],
+            "Rice": ["rice"],
+            "Wheat": ["flour", "wheat"],
+            "Sugar": ["sugar"],
+            "Oil": ["oil"],
+            "Fruits": ["strawberries", "juice", "squash", "apple", "orange", "banana", "pear", "grape"],
+        }
+        for category, keywords in categories.items():
+            if any(re.search(r'\b' + re.escape(k) + r'\b', pn) for k in keywords):
+                return category
+    return "Other"
 
+df['product_category'] = df['pn'].apply(cp)
+df_cleaned = df.dropna(subset=['product_category']).copy()
 
-# using the g_products function
-df['Product'] = df['Product'].apply(g_products)
-
-# Dropping None/Nan/other rows
-df = df.dropna(subset=['Product'])
-
-
-# Converting quantity and price adjustment
 def convert_quantity(row):
-    quantity = row['Quantity'].lower()
-    value = row['VALUE']
+    quantity = row['quantity']
+    if isinstance(quantity, str):
+        quantity = quantity.lower()
+    else:
+        return None
 
-    # extracting number from string. \d+\.?\d* this part is called regex you can look it up on google
+    value = row['VALUE']
     num = float(re.findall(r'\d+\.?\d*', quantity)[0]) if re.search(r'\d+\.?\d*', quantity) else 1
 
-    # Conversion based on units
     if 'kg' in quantity or 'kilogram' in quantity:
-        return value / num, '1 kg'
+        return value / num
     elif 'gram' in quantity:
-        return value * (1000 / num), '1 kg'
+        return value * (1000 / num)
     elif 'litre' in quantity or 'ml' in quantity:
-        if 'ml' in quantity:
-            return value * (1000 / num), '1 litre'
-        else:
-            return value / num, '1 litre'
-    else:
-        return value / num, '1 unit'
+        return value * (1000 / num) if 'ml' in quantity else value / num
+    return value / num
 
+df_cleaned['VALUE'] = df_cleaned.apply(convert_quantity, axis=1)
+df_cleaned.drop(columns=['quantity'], inplace=True)
 
-# quantity conversion using defined fun
-df[['VALUE', 'Quantity']] = df.apply(convert_quantity, axis=1, result_type='expand')
+df_cleaned = df_cleaned[df_cleaned['GEO'] != 'Canada']
 
+df_health_diet = df_cleaned.groupby('product_category').agg(VALUE=('VALUE', 'mean')).reset_index()
 
-# Grouping by product, GEO, and year, and calculating the average value
-df_grouped = df.groupby(['YEAR', 'GEO', 'Product']).agg({'VALUE': 'mean'}).reset_index()
-df_grouped["VALUE"] = df_grouped["VALUE"].round(2)
+df_health_diet['VALUE'] = df_health_diet['VALUE'].round(2)
 
-df_grouped.to_csv('Cleaned_Food_Prices.csv', index=False)
+df_health_diet = df_health_diet.rename(columns={'product_category': 'Product'})
 
-print(df_grouped)
+df_health_diet.to_csv('health_diet_price.csv', index=False)
+
+print(df_health_diet)

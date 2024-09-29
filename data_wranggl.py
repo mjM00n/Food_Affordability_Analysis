@@ -46,35 +46,28 @@ combined_data.PROV.replace(
      "British Columbia","NaN","NaN",
      "NaN","NaN","NaN","NaN","NaN"], inplace=True)
 
-<<<<<<< HEAD
 
-combined_data['PROV'] = combined_data['PROV'].replace(p_names)
-combined_data['PROV'] = np.where(combined_data['PROV'].isin(p_names.values()), combined_data['PROV'], np.nan)
+#combined_data['PROV'] = combined_data['PROV'].replace(p_names)
+#combined_data['PROV'] = np.where(combined_data['PROV'].isin(p_names.values()), combined_data['PROV'], np.nan)
 
-combined_data = combined_data["PROV"].replace(p_names).where(combined_data["PROV"].isin(p_names.keys()), np.nan)
+#combined_data = combined_data["PROV"].replace(p_names).where(combined_data["PROV"].isin(p_names.keys()), np.nan)
 
 
 # Deleting the rows that have missing values
 combined_data = combined_data.dropna(subset=['PROV'])
-=======
-# combined_data = combined_data["PROV"].replace(p_names).where(combined_data["PROV"].isin(p_names.keys()), np.nan)
-
 
 
 # Deleting the MBM Region data
 combined_data = combined_data.drop(columns= ['MBMREGP'])
->>>>>>> 72d09037f561f7600dd7bae56bc99681274c5a3a
 
 # Deleting Duplicates
 combined_data = combined_data.drop_duplicates()
 
-<<<<<<< HEAD
 
 print(combined_data.head())
 
 combined_data.to_csv("FINAL_CIS")
 
-=======
 combined_data.to_csv("FINAL_CIS.csv")
 
 CIS_data = pd.read_csv("FINAL_CIS.csv")
@@ -84,4 +77,3 @@ FS_data = pd.read_csv("Cleaned_Food_Spending.csv")
 combined_CIS_FS = pd.merge(CIS_data, FS_data, how="outer", on=['YEAR', 'PROV'])
 
 combined_CIS_FS.to_csv("CIS_Food_Spending_merged_data.csv")
->>>>>>> 72d09037f561f7600dd7bae56bc99681274c5a3a

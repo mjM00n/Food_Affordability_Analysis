@@ -1,441 +1,561 @@
-YEAR,GEO,Product,VALUE
+year,GEO,product_category,VALUE
 2017,Alberta,Beef,15.86
 2017,Alberta,Chicken,8.86
+2017,Alberta,Fruits,3.49
+2017,Alberta,Other,3.86
 2017,Alberta,Pork,8.59
-2017,Alberta,Sea Food,22.33
-2017,Alberta,Vegetables,2.76
+2017,Alberta,Sea food,22.33
+2017,Alberta,Vegetables,1.98
 2017,British Columbia,Beef,15.83
 2017,British Columbia,Chicken,8.82
+2017,British Columbia,Fruits,3.31
+2017,British Columbia,Other,3.94
 2017,British Columbia,Pork,8.45
-2017,British Columbia,Sea Food,23.52
-2017,British Columbia,Vegetables,2.93
-2017,Canada,Beef,15.66
-2017,Canada,Chicken,8.05
-2017,Canada,Pork,7.15
-2017,Canada,Sea Food,22.62
-2017,Canada,Vegetables,3.1
+2017,British Columbia,Sea food,23.52
+2017,British Columbia,Vegetables,1.96
 2017,Manitoba,Beef,15.21
 2017,Manitoba,Chicken,8.42
+2017,Manitoba,Fruits,3.36
+2017,Manitoba,Other,3.87
 2017,Manitoba,Pork,8.35
-2017,Manitoba,Sea Food,21.02
-2017,Manitoba,Vegetables,2.72
+2017,Manitoba,Sea food,21.02
+2017,Manitoba,Vegetables,1.89
 2017,New Brunswick,Beef,15.0
 2017,New Brunswick,Chicken,7.55
+2017,New Brunswick,Fruits,3.65
+2017,New Brunswick,Other,4.42
 2017,New Brunswick,Pork,6.27
-2017,New Brunswick,Sea Food,20.11
-2017,New Brunswick,Vegetables,4.01
+2017,New Brunswick,Sea food,20.11
+2017,New Brunswick,Vegetables,2.19
 2017,Newfoundland and Labrador,Beef,15.62
 2017,Newfoundland and Labrador,Chicken,7.73
+2017,Newfoundland and Labrador,Fruits,4.12
+2017,Newfoundland and Labrador,Other,5.0
 2017,Newfoundland and Labrador,Pork,6.46
-2017,Newfoundland and Labrador,Sea Food,20.39
-2017,Newfoundland and Labrador,Vegetables,4.37
+2017,Newfoundland and Labrador,Sea food,20.39
+2017,Newfoundland and Labrador,Vegetables,2.27
 2017,Nova Scotia,Beef,14.93
 2017,Nova Scotia,Chicken,7.49
+2017,Nova Scotia,Fruits,3.71
+2017,Nova Scotia,Other,4.38
 2017,Nova Scotia,Pork,6.33
-2017,Nova Scotia,Sea Food,19.66
-2017,Nova Scotia,Vegetables,3.75
+2017,Nova Scotia,Sea food,19.66
+2017,Nova Scotia,Vegetables,2.2
 2017,Ontario,Beef,16.19
 2017,Ontario,Chicken,7.78
+2017,Ontario,Fruits,3.31
+2017,Ontario,Other,3.64
 2017,Ontario,Pork,6.91
-2017,Ontario,Sea Food,24.27
-2017,Ontario,Vegetables,3.18
+2017,Ontario,Sea food,24.27
+2017,Ontario,Vegetables,1.73
 2017,Prince Edward Island,Beef,15.09
 2017,Prince Edward Island,Chicken,7.39
+2017,Prince Edward Island,Fruits,3.74
+2017,Prince Edward Island,Other,4.42
 2017,Prince Edward Island,Pork,6.35
-2017,Prince Edward Island,Sea Food,19.86
-2017,Prince Edward Island,Vegetables,3.92
+2017,Prince Edward Island,Sea food,19.86
+2017,Prince Edward Island,Vegetables,2.2
 2017,Quebec,Beef,18.16
 2017,Quebec,Chicken,8.38
+2017,Quebec,Fruits,3.52
+2017,Quebec,Other,3.81
 2017,Quebec,Pork,7.36
-2017,Quebec,Sea Food,22.45
-2017,Quebec,Vegetables,3.48
+2017,Quebec,Sea food,22.45
+2017,Quebec,Vegetables,1.76
 2017,Saskatchewan,Beef,14.9
 2017,Saskatchewan,Chicken,8.35
+2017,Saskatchewan,Fruits,3.48
+2017,Saskatchewan,Other,3.92
 2017,Saskatchewan,Pork,8.21
-2017,Saskatchewan,Sea Food,20.12
-2017,Saskatchewan,Vegetables,2.78
+2017,Saskatchewan,Sea food,20.12
+2017,Saskatchewan,Vegetables,1.98
 2018,Alberta,Beef,15.85
 2018,Alberta,Chicken,9.07
+2018,Alberta,Fruits,3.5
+2018,Alberta,Other,3.99
 2018,Alberta,Pork,8.14
-2018,Alberta,Sea Food,23.42
-2018,Alberta,Vegetables,3.06
+2018,Alberta,Sea food,23.42
+2018,Alberta,Vegetables,2.1
 2018,British Columbia,Beef,16.08
 2018,British Columbia,Chicken,9.07
+2018,British Columbia,Fruits,3.48
+2018,British Columbia,Other,4.13
 2018,British Columbia,Pork,7.98
-2018,British Columbia,Sea Food,25.02
-2018,British Columbia,Vegetables,3.22
-2018,Canada,Beef,15.22
-2018,Canada,Chicken,8.07
-2018,Canada,Pork,7.08
-2018,Canada,Sea Food,23.08
-2018,Canada,Vegetables,3.44
+2018,British Columbia,Sea food,25.02
+2018,British Columbia,Vegetables,2.1
 2018,Manitoba,Beef,15.23
 2018,Manitoba,Chicken,8.64
+2018,Manitoba,Fruits,3.34
+2018,Manitoba,Other,3.98
 2018,Manitoba,Pork,7.87
-2018,Manitoba,Sea Food,21.94
-2018,Manitoba,Vegetables,3.06
+2018,Manitoba,Sea food,21.94
+2018,Manitoba,Vegetables,2.0
 2018,New Brunswick,Beef,14.73
 2018,New Brunswick,Chicken,6.91
+2018,New Brunswick,Fruits,3.99
+2018,New Brunswick,Other,4.69
 2018,New Brunswick,Pork,6.63
-2018,New Brunswick,Sea Food,20.41
-2018,New Brunswick,Vegetables,4.17
+2018,New Brunswick,Sea food,20.41
+2018,New Brunswick,Vegetables,2.47
 2018,Newfoundland and Labrador,Beef,14.75
 2018,Newfoundland and Labrador,Chicken,7.32
+2018,Newfoundland and Labrador,Fruits,4.4
+2018,Newfoundland and Labrador,Other,5.11
 2018,Newfoundland and Labrador,Pork,6.94
-2018,Newfoundland and Labrador,Sea Food,20.39
-2018,Newfoundland and Labrador,Vegetables,4.38
+2018,Newfoundland and Labrador,Sea food,20.39
+2018,Newfoundland and Labrador,Vegetables,2.3
 2018,Nova Scotia,Beef,14.5
 2018,Nova Scotia,Chicken,6.96
+2018,Nova Scotia,Fruits,4.08
+2018,Nova Scotia,Other,4.69
 2018,Nova Scotia,Pork,6.87
-2018,Nova Scotia,Sea Food,20.14
-2018,Nova Scotia,Vegetables,3.96
+2018,Nova Scotia,Sea food,20.14
+2018,Nova Scotia,Vegetables,2.37
 2018,Ontario,Beef,15.23
 2018,Ontario,Chicken,7.84
+2018,Ontario,Fruits,3.56
+2018,Ontario,Other,3.93
 2018,Ontario,Pork,6.93
-2018,Ontario,Sea Food,24.63
-2018,Ontario,Vegetables,3.57
+2018,Ontario,Sea food,24.63
+2018,Ontario,Vegetables,1.82
 2018,Prince Edward Island,Beef,14.85
 2018,Prince Edward Island,Chicken,6.96
+2018,Prince Edward Island,Fruits,4.09
+2018,Prince Edward Island,Other,4.75
 2018,Prince Edward Island,Pork,6.89
-2018,Prince Edward Island,Sea Food,20.28
-2018,Prince Edward Island,Vegetables,4.26
+2018,Prince Edward Island,Sea food,20.28
+2018,Prince Edward Island,Vegetables,2.38
 2018,Quebec,Beef,18.06
 2018,Quebec,Chicken,8.32
+2018,Quebec,Fruits,3.67
+2018,Quebec,Other,4.0
 2018,Quebec,Pork,7.33
-2018,Quebec,Sea Food,22.2
-2018,Quebec,Vegetables,3.66
+2018,Quebec,Sea food,22.2
+2018,Quebec,Vegetables,2.16
 2018,Saskatchewan,Beef,14.9
 2018,Saskatchewan,Chicken,8.34
+2018,Saskatchewan,Fruits,3.47
+2018,Saskatchewan,Other,4.03
 2018,Saskatchewan,Pork,7.59
-2018,Saskatchewan,Sea Food,21.34
-2018,Saskatchewan,Vegetables,3.15
+2018,Saskatchewan,Sea food,21.34
+2018,Saskatchewan,Vegetables,2.07
 2019,Alberta,Beef,17.18
 2019,Alberta,Chicken,8.95
+2019,Alberta,Fruits,4.0
+2019,Alberta,Other,4.45
 2019,Alberta,Pork,8.62
-2019,Alberta,Sea Food,24.68
-2019,Alberta,Vegetables,3.82
+2019,Alberta,Sea food,24.68
+2019,Alberta,Vegetables,2.57
 2019,British Columbia,Beef,17.04
 2019,British Columbia,Chicken,8.94
+2019,British Columbia,Fruits,3.85
+2019,British Columbia,Other,4.45
 2019,British Columbia,Pork,8.52
-2019,British Columbia,Sea Food,27.02
-2019,British Columbia,Vegetables,3.78
-2019,Canada,Beef,15.68
-2019,Canada,Chicken,8.1
-2019,Canada,Pork,7.62
-2019,Canada,Sea Food,24.12
-2019,Canada,Vegetables,3.83
+2019,British Columbia,Sea food,27.02
+2019,British Columbia,Vegetables,2.58
 2019,Manitoba,Beef,16.51
 2019,Manitoba,Chicken,8.43
+2019,Manitoba,Fruits,3.87
+2019,Manitoba,Other,4.25
 2019,Manitoba,Pork,8.06
-2019,Manitoba,Sea Food,23.23
-2019,Manitoba,Vegetables,3.62
+2019,Manitoba,Sea food,23.23
+2019,Manitoba,Vegetables,2.45
 2019,New Brunswick,Beef,14.9
 2019,New Brunswick,Chicken,7.52
+2019,New Brunswick,Fruits,4.34
+2019,New Brunswick,Other,4.89
 2019,New Brunswick,Pork,6.78
-2019,New Brunswick,Sea Food,21.02
-2019,New Brunswick,Vegetables,4.4
+2019,New Brunswick,Sea food,21.02
+2019,New Brunswick,Vegetables,2.83
 2019,Newfoundland and Labrador,Beef,14.99
 2019,Newfoundland and Labrador,Chicken,7.54
+2019,Newfoundland and Labrador,Fruits,4.85
+2019,Newfoundland and Labrador,Other,5.21
 2019,Newfoundland and Labrador,Pork,7.22
-2019,Newfoundland and Labrador,Sea Food,20.52
-2019,Newfoundland and Labrador,Vegetables,4.64
+2019,Newfoundland and Labrador,Sea food,20.52
+2019,Newfoundland and Labrador,Vegetables,2.6
 2019,Nova Scotia,Beef,14.7
 2019,Nova Scotia,Chicken,7.63
+2019,Nova Scotia,Fruits,4.47
+2019,Nova Scotia,Other,4.86
 2019,Nova Scotia,Pork,7.06
-2019,Nova Scotia,Sea Food,20.67
-2019,Nova Scotia,Vegetables,4.23
+2019,Nova Scotia,Sea food,20.67
+2019,Nova Scotia,Vegetables,2.68
 2019,Ontario,Beef,15.39
 2019,Ontario,Chicken,7.9
+2019,Ontario,Fruits,3.88
+2019,Ontario,Other,4.13
 2019,Ontario,Pork,7.82
-2019,Ontario,Sea Food,24.85
-2019,Ontario,Vegetables,3.77
+2019,Ontario,Sea food,24.85
+2019,Ontario,Vegetables,2.54
 2019,Prince Edward Island,Beef,14.96
 2019,Prince Edward Island,Chicken,7.81
+2019,Prince Edward Island,Fruits,4.53
+2019,Prince Edward Island,Other,4.92
 2019,Prince Edward Island,Pork,7.2
-2019,Prince Edward Island,Sea Food,20.72
-2019,Prince Edward Island,Vegetables,4.48
+2019,Prince Edward Island,Sea food,20.72
+2019,Prince Edward Island,Vegetables,2.67
 2019,Quebec,Beef,18.82
 2019,Quebec,Chicken,8.25
+2019,Quebec,Fruits,3.97
+2019,Quebec,Other,4.46
 2019,Quebec,Pork,7.51
-2019,Quebec,Sea Food,23.71
-2019,Quebec,Vegetables,4.18
+2019,Quebec,Sea food,23.71
+2019,Quebec,Vegetables,2.72
 2019,Saskatchewan,Beef,15.87
 2019,Saskatchewan,Chicken,8.2
+2019,Saskatchewan,Fruits,4.05
+2019,Saskatchewan,Other,4.5
 2019,Saskatchewan,Pork,8.04
-2019,Saskatchewan,Sea Food,23.0
-2019,Saskatchewan,Vegetables,3.97
+2019,Saskatchewan,Sea food,23.0
+2019,Saskatchewan,Vegetables,2.6
 2020,Alberta,Beef,18.7
 2020,Alberta,Chicken,9.2
+2020,Alberta,Fruits,3.99
+2020,Alberta,Other,4.74
 2020,Alberta,Pork,8.68
-2020,Alberta,Sea Food,22.77
-2020,Alberta,Vegetables,4.11
+2020,Alberta,Sea food,22.77
+2020,Alberta,Vegetables,2.41
 2020,British Columbia,Beef,18.85
 2020,British Columbia,Chicken,9.18
+2020,British Columbia,Fruits,4.04
+2020,British Columbia,Other,4.63
 2020,British Columbia,Pork,8.57
-2020,British Columbia,Sea Food,24.62
-2020,British Columbia,Vegetables,4.07
-2020,Canada,Beef,17.22
-2020,Canada,Chicken,8.4
-2020,Canada,Pork,7.83
-2020,Canada,Sea Food,22.61
-2020,Canada,Vegetables,3.95
+2020,British Columbia,Sea food,24.62
+2020,British Columbia,Vegetables,2.43
 2020,Manitoba,Beef,18.39
 2020,Manitoba,Chicken,8.77
+2020,Manitoba,Fruits,3.85
+2020,Manitoba,Other,4.5
 2020,Manitoba,Pork,8.35
-2020,Manitoba,Sea Food,21.77
-2020,Manitoba,Vegetables,3.93
+2020,Manitoba,Sea food,21.77
+2020,Manitoba,Vegetables,2.27
 2020,New Brunswick,Beef,16.26
 2020,New Brunswick,Chicken,7.14
+2020,New Brunswick,Fruits,4.53
+2020,New Brunswick,Other,5.24
 2020,New Brunswick,Pork,7.15
-2020,New Brunswick,Sea Food,20.91
-2020,New Brunswick,Vegetables,4.31
+2020,New Brunswick,Sea food,20.91
+2020,New Brunswick,Vegetables,2.44
 2020,Newfoundland and Labrador,Beef,17.33
 2020,Newfoundland and Labrador,Chicken,7.62
+2020,Newfoundland and Labrador,Fruits,4.95
+2020,Newfoundland and Labrador,Other,5.62
 2020,Newfoundland and Labrador,Pork,7.64
-2020,Newfoundland and Labrador,Sea Food,21.51
-2020,Newfoundland and Labrador,Vegetables,4.76
+2020,Newfoundland and Labrador,Sea food,21.51
+2020,Newfoundland and Labrador,Vegetables,2.55
 2020,Nova Scotia,Beef,16.23
 2020,Nova Scotia,Chicken,7.19
+2020,Nova Scotia,Fruits,4.59
+2020,Nova Scotia,Other,5.2
 2020,Nova Scotia,Pork,7.32
-2020,Nova Scotia,Sea Food,20.86
-2020,Nova Scotia,Vegetables,4.2
+2020,Nova Scotia,Sea food,20.86
+2020,Nova Scotia,Vegetables,2.34
 2020,Ontario,Beef,16.79
 2020,Ontario,Chicken,8.49
+2020,Ontario,Fruits,3.9
+2020,Ontario,Other,4.31
 2020,Ontario,Pork,7.62
-2020,Ontario,Sea Food,23.68
-2020,Ontario,Vegetables,3.82
+2020,Ontario,Sea food,23.68
+2020,Ontario,Vegetables,2.16
 2020,Prince Edward Island,Beef,16.54
 2020,Prince Edward Island,Chicken,7.22
+2020,Prince Edward Island,Fruits,4.62
+2020,Prince Edward Island,Other,5.23
 2020,Prince Edward Island,Pork,7.36
-2020,Prince Edward Island,Sea Food,20.78
-2020,Prince Edward Island,Vegetables,4.25
+2020,Prince Edward Island,Sea food,20.78
+2020,Prince Edward Island,Vegetables,2.35
 2020,Quebec,Beef,19.71
 2020,Quebec,Chicken,8.5
+2020,Quebec,Fruits,4.3
+2020,Quebec,Other,4.85
 2020,Quebec,Pork,8.34
-2020,Quebec,Sea Food,21.73
-2020,Quebec,Vegetables,4.31
+2020,Quebec,Sea food,21.73
+2020,Quebec,Vegetables,2.39
 2020,Saskatchewan,Beef,17.29
 2020,Saskatchewan,Chicken,8.31
+2020,Saskatchewan,Fruits,4.01
+2020,Saskatchewan,Other,4.69
 2020,Saskatchewan,Pork,7.91
-2020,Saskatchewan,Sea Food,21.32
-2020,Saskatchewan,Vegetables,4.17
+2020,Saskatchewan,Sea food,21.32
+2020,Saskatchewan,Vegetables,2.48
 2021,Alberta,Beef,19.05
 2021,Alberta,Chicken,9.43
+2021,Alberta,Fruits,3.92
+2021,Alberta,Other,4.71
 2021,Alberta,Pork,9.1
-2021,Alberta,Sea Food,22.99
-2021,Alberta,Vegetables,4.08
+2021,Alberta,Sea food,22.99
+2021,Alberta,Vegetables,2.3
 2021,British Columbia,Beef,19.46
 2021,British Columbia,Chicken,9.54
+2021,British Columbia,Fruits,3.84
+2021,British Columbia,Other,4.72
 2021,British Columbia,Pork,9.03
-2021,British Columbia,Sea Food,25.07
-2021,British Columbia,Vegetables,4.14
-2021,Canada,Beef,18.33
-2021,Canada,Chicken,8.69
-2021,Canada,Pork,8.51
-2021,Canada,Sea Food,23.5
-2021,Canada,Vegetables,3.96
+2021,British Columbia,Sea food,25.07
+2021,British Columbia,Vegetables,2.36
 2021,Manitoba,Beef,18.64
 2021,Manitoba,Chicken,8.94
+2021,Manitoba,Fruits,3.8
+2021,Manitoba,Other,4.57
 2021,Manitoba,Pork,8.68
-2021,Manitoba,Sea Food,22.39
-2021,Manitoba,Vegetables,3.93
+2021,Manitoba,Sea food,22.39
+2021,Manitoba,Vegetables,2.22
 2021,New Brunswick,Beef,17.97
 2021,New Brunswick,Chicken,7.57
+2021,New Brunswick,Fruits,4.43
+2021,New Brunswick,Other,5.13
 2021,New Brunswick,Pork,7.85
-2021,New Brunswick,Sea Food,22.28
-2021,New Brunswick,Vegetables,4.37
+2021,New Brunswick,Sea food,22.28
+2021,New Brunswick,Vegetables,2.48
 2021,Newfoundland and Labrador,Beef,18.72
 2021,Newfoundland and Labrador,Chicken,8.0
+2021,Newfoundland and Labrador,Fruits,4.69
+2021,Newfoundland and Labrador,Other,5.62
 2021,Newfoundland and Labrador,Pork,8.19
-2021,Newfoundland and Labrador,Sea Food,21.9
-2021,Newfoundland and Labrador,Vegetables,4.71
+2021,Newfoundland and Labrador,Sea food,21.9
+2021,Newfoundland and Labrador,Vegetables,2.52
 2021,Nova Scotia,Beef,17.8
 2021,Nova Scotia,Chicken,7.75
+2021,Nova Scotia,Fruits,4.51
+2021,Nova Scotia,Other,5.12
 2021,Nova Scotia,Pork,8.0
-2021,Nova Scotia,Sea Food,22.5
-2021,Nova Scotia,Vegetables,4.24
+2021,Nova Scotia,Sea food,22.5
+2021,Nova Scotia,Vegetables,2.4
 2021,Ontario,Beef,17.86
 2021,Ontario,Chicken,8.87
+2021,Ontario,Fruits,3.66
+2021,Ontario,Other,4.25
 2021,Ontario,Pork,8.6
-2021,Ontario,Sea Food,24.89
-2021,Ontario,Vegetables,3.86
+2021,Ontario,Sea food,24.89
+2021,Ontario,Vegetables,2.05
 2021,Prince Edward Island,Beef,18.2
 2021,Prince Edward Island,Chicken,7.85
+2021,Prince Edward Island,Fruits,4.47
+2021,Prince Edward Island,Other,5.2
 2021,Prince Edward Island,Pork,8.12
-2021,Prince Edward Island,Sea Food,22.01
-2021,Prince Edward Island,Vegetables,4.42
+2021,Prince Edward Island,Sea food,22.01
+2021,Prince Edward Island,Vegetables,2.45
 2021,Quebec,Beef,22.58
 2021,Quebec,Chicken,8.43
+2021,Quebec,Fruits,3.94
+2021,Quebec,Other,4.61
 2021,Quebec,Pork,9.06
-2021,Quebec,Sea Food,22.54
-2021,Quebec,Vegetables,4.13
+2021,Quebec,Sea food,22.54
+2021,Quebec,Vegetables,2.34
 2021,Saskatchewan,Beef,17.82
 2021,Saskatchewan,Chicken,8.76
+2021,Saskatchewan,Fruits,3.96
+2021,Saskatchewan,Other,4.67
 2021,Saskatchewan,Pork,8.29
-2021,Saskatchewan,Sea Food,21.67
-2021,Saskatchewan,Vegetables,4.12
+2021,Saskatchewan,Sea food,21.67
+2021,Saskatchewan,Vegetables,2.46
 2022,Alberta,Beef,20.59
 2022,Alberta,Chicken,10.27
+2022,Alberta,Fruits,4.22
+2022,Alberta,Other,5.24
 2022,Alberta,Pork,9.26
-2022,Alberta,Sea Food,25.45
-2022,Alberta,Vegetables,4.36
+2022,Alberta,Sea food,25.45
+2022,Alberta,Vegetables,2.64
 2022,British Columbia,Beef,21.06
 2022,British Columbia,Chicken,10.6
+2022,British Columbia,Fruits,4.22
+2022,British Columbia,Other,5.29
 2022,British Columbia,Pork,9.37
-2022,British Columbia,Sea Food,27.36
-2022,British Columbia,Vegetables,4.43
-2022,Canada,Beef,19.74
-2022,Canada,Chicken,9.57
-2022,Canada,Pork,8.64
-2022,Canada,Sea Food,26.37
-2022,Canada,Vegetables,4.19
+2022,British Columbia,Sea food,27.36
+2022,British Columbia,Vegetables,2.73
 2022,Manitoba,Beef,20.08
 2022,Manitoba,Chicken,9.84
+2022,Manitoba,Fruits,4.13
+2022,Manitoba,Other,5.12
 2022,Manitoba,Pork,9.02
-2022,Manitoba,Sea Food,23.7
-2022,Manitoba,Vegetables,4.27
+2022,Manitoba,Sea food,23.7
+2022,Manitoba,Vegetables,2.54
 2022,New Brunswick,Beef,19.15
 2022,New Brunswick,Chicken,8.51
+2022,New Brunswick,Fruits,4.67
+2022,New Brunswick,Other,5.49
 2022,New Brunswick,Pork,7.96
-2022,New Brunswick,Sea Food,24.77
-2022,New Brunswick,Vegetables,4.49
+2022,New Brunswick,Sea food,24.77
+2022,New Brunswick,Vegetables,2.49
 2022,Newfoundland and Labrador,Beef,19.31
 2022,Newfoundland and Labrador,Chicken,8.5
+2022,Newfoundland and Labrador,Fruits,5.09
+2022,Newfoundland and Labrador,Other,5.98
 2022,Newfoundland and Labrador,Pork,8.3
-2022,Newfoundland and Labrador,Sea Food,24.46
-2022,Newfoundland and Labrador,Vegetables,4.9
+2022,Newfoundland and Labrador,Sea food,24.46
+2022,Newfoundland and Labrador,Vegetables,2.62
 2022,Nova Scotia,Beef,19.02
 2022,Nova Scotia,Chicken,8.75
+2022,Nova Scotia,Fruits,4.87
+2022,Nova Scotia,Other,5.44
 2022,Nova Scotia,Pork,8.05
-2022,Nova Scotia,Sea Food,25.14
-2022,Nova Scotia,Vegetables,4.33
+2022,Nova Scotia,Sea food,25.14
+2022,Nova Scotia,Vegetables,2.49
 2022,Ontario,Beef,19.52
 2022,Ontario,Chicken,9.84
+2022,Ontario,Fruits,4.11
+2022,Ontario,Other,4.72
 2022,Ontario,Pork,8.64
-2022,Ontario,Sea Food,28.25
-2022,Ontario,Vegetables,4.09
+2022,Ontario,Sea food,28.25
+2022,Ontario,Vegetables,2.3
 2022,Prince Edward Island,Beef,19.41
 2022,Prince Edward Island,Chicken,8.9
+2022,Prince Edward Island,Fruits,5.05
+2022,Prince Edward Island,Other,5.54
 2022,Prince Edward Island,Pork,8.22
-2022,Prince Edward Island,Sea Food,25.62
-2022,Prince Edward Island,Vegetables,4.53
+2022,Prince Edward Island,Sea food,25.62
+2022,Prince Edward Island,Vegetables,2.56
 2022,Quebec,Beef,24.08
 2022,Quebec,Chicken,9.39
+2022,Quebec,Fruits,4.24
+2022,Quebec,Other,4.97
 2022,Quebec,Pork,9.17
-2022,Quebec,Sea Food,25.83
-2022,Quebec,Vegetables,4.11
+2022,Quebec,Sea food,25.83
+2022,Quebec,Vegetables,2.34
 2022,Saskatchewan,Beef,19.3
 2022,Saskatchewan,Chicken,9.77
+2022,Saskatchewan,Fruits,4.23
+2022,Saskatchewan,Other,5.26
 2022,Saskatchewan,Pork,8.62
-2022,Saskatchewan,Sea Food,22.14
-2022,Saskatchewan,Vegetables,4.54
+2022,Saskatchewan,Sea food,22.14
+2022,Saskatchewan,Vegetables,2.77
 2023,Alberta,Beef,21.35
 2023,Alberta,Chicken,11.12
+2023,Alberta,Fruits,4.43
+2023,Alberta,Other,5.59
 2023,Alberta,Pork,9.12
-2023,Alberta,Sea Food,25.84
-2023,Alberta,Vegetables,4.83
+2023,Alberta,Sea food,25.84
+2023,Alberta,Vegetables,3.04
 2023,British Columbia,Beef,22.22
 2023,British Columbia,Chicken,11.38
+2023,British Columbia,Fruits,4.48
+2023,British Columbia,Other,5.66
 2023,British Columbia,Pork,9.23
-2023,British Columbia,Sea Food,27.23
-2023,British Columbia,Vegetables,4.86
-2023,Canada,Beef,21.08
-2023,Canada,Chicken,9.85
-2023,Canada,Pork,8.3
-2023,Canada,Sea Food,26.83
-2023,Canada,Vegetables,4.54
+2023,British Columbia,Sea food,27.23
+2023,British Columbia,Vegetables,3.08
 2023,Manitoba,Beef,20.81
 2023,Manitoba,Chicken,10.66
+2023,Manitoba,Fruits,4.32
+2023,Manitoba,Other,5.48
 2023,Manitoba,Pork,8.76
-2023,Manitoba,Sea Food,23.14
-2023,Manitoba,Vegetables,4.74
+2023,Manitoba,Sea food,23.14
+2023,Manitoba,Vegetables,2.86
 2023,New Brunswick,Beef,20.55
 2023,New Brunswick,Chicken,8.86
+2023,New Brunswick,Fruits,5.19
+2023,New Brunswick,Other,5.89
 2023,New Brunswick,Pork,8.42
-2023,New Brunswick,Sea Food,25.44
-2023,New Brunswick,Vegetables,4.74
+2023,New Brunswick,Sea food,25.44
+2023,New Brunswick,Vegetables,2.76
 2023,Newfoundland and Labrador,Beef,21.23
 2023,Newfoundland and Labrador,Chicken,9.11
+2023,Newfoundland and Labrador,Fruits,5.81
+2023,Newfoundland and Labrador,Other,6.35
 2023,Newfoundland and Labrador,Pork,8.46
-2023,Newfoundland and Labrador,Sea Food,26.06
-2023,Newfoundland and Labrador,Vegetables,5.16
+2023,Newfoundland and Labrador,Sea food,26.06
+2023,Newfoundland and Labrador,Vegetables,2.96
 2023,Nova Scotia,Beef,20.6
 2023,Nova Scotia,Chicken,9.08
+2023,Nova Scotia,Fruits,5.09
+2023,Nova Scotia,Other,5.81
 2023,Nova Scotia,Pork,8.43
-2023,Nova Scotia,Sea Food,26.31
-2023,Nova Scotia,Vegetables,4.48
+2023,Nova Scotia,Sea food,26.31
+2023,Nova Scotia,Vegetables,2.77
 2023,Ontario,Beef,21.59
 2023,Ontario,Chicken,9.91
+2023,Ontario,Fruits,4.3
+2023,Ontario,Other,4.95
 2023,Ontario,Pork,8.03
-2023,Ontario,Sea Food,27.87
-2023,Ontario,Vegetables,4.35
+2023,Ontario,Sea food,27.87
+2023,Ontario,Vegetables,2.4
 2023,Prince Edward Island,Beef,20.87
 2023,Prince Edward Island,Chicken,9.17
+2023,Prince Edward Island,Fruits,5.47
+2023,Prince Edward Island,Other,5.89
 2023,Prince Edward Island,Pork,8.54
-2023,Prince Edward Island,Sea Food,26.12
-2023,Prince Edward Island,Vegetables,4.65
+2023,Prince Edward Island,Sea food,26.12
+2023,Prince Edward Island,Vegetables,2.81
 2023,Quebec,Beef,24.82
 2023,Quebec,Chicken,9.47
+2023,Quebec,Fruits,5.05
+2023,Quebec,Other,5.3
 2023,Quebec,Pork,8.71
-2023,Quebec,Sea Food,27.16
-2023,Quebec,Vegetables,4.5
+2023,Quebec,Sea food,27.16
+2023,Quebec,Vegetables,2.41
 2023,Saskatchewan,Beef,20.15
 2023,Saskatchewan,Chicken,10.3
+2023,Saskatchewan,Fruits,4.49
+2023,Saskatchewan,Other,5.61
 2023,Saskatchewan,Pork,8.48
-2023,Saskatchewan,Sea Food,21.84
-2023,Saskatchewan,Vegetables,4.98
+2023,Saskatchewan,Sea food,21.84
+2023,Saskatchewan,Vegetables,3.03
 2024,Alberta,Beef,23.21
 2024,Alberta,Chicken,10.91
+2024,Alberta,Fruits,4.8
+2024,Alberta,Other,5.61
 2024,Alberta,Pork,9.54
-2024,Alberta,Sea Food,27.44
-2024,Alberta,Vegetables,4.96
+2024,Alberta,Sea food,27.44
+2024,Alberta,Vegetables,2.81
 2024,British Columbia,Beef,23.95
 2024,British Columbia,Chicken,11.16
+2024,British Columbia,Fruits,4.8
+2024,British Columbia,Other,5.63
 2024,British Columbia,Pork,9.62
-2024,British Columbia,Sea Food,28.17
-2024,British Columbia,Vegetables,5.07
-2024,Canada,Beef,21.97
-2024,Canada,Chicken,9.2
-2024,Canada,Pork,8.62
-2024,Canada,Sea Food,26.85
-2024,Canada,Vegetables,4.58
+2024,British Columbia,Sea food,28.17
+2024,British Columbia,Vegetables,3.01
 2024,Manitoba,Beef,22.42
 2024,Manitoba,Chicken,10.63
+2024,Manitoba,Fruits,4.81
+2024,Manitoba,Other,5.47
 2024,Manitoba,Pork,9.13
-2024,Manitoba,Sea Food,24.67
-2024,Manitoba,Vegetables,4.9
+2024,Manitoba,Sea food,24.67
+2024,Manitoba,Vegetables,2.71
 2024,New Brunswick,Beef,22.46
 2024,New Brunswick,Chicken,8.67
+2024,New Brunswick,Fruits,5.19
+2024,New Brunswick,Other,6.0
 2024,New Brunswick,Pork,8.76
-2024,New Brunswick,Sea Food,25.96
-2024,New Brunswick,Vegetables,5.07
+2024,New Brunswick,Sea food,25.96
+2024,New Brunswick,Vegetables,2.85
 2024,Newfoundland and Labrador,Beef,23.31
 2024,Newfoundland and Labrador,Chicken,9.12
+2024,Newfoundland and Labrador,Fruits,5.41
+2024,Newfoundland and Labrador,Other,6.49
 2024,Newfoundland and Labrador,Pork,8.97
-2024,Newfoundland and Labrador,Sea Food,26.37
-2024,Newfoundland and Labrador,Vegetables,5.35
+2024,Newfoundland and Labrador,Sea food,26.37
+2024,Newfoundland and Labrador,Vegetables,3.14
 2024,Nova Scotia,Beef,22.18
 2024,Nova Scotia,Chicken,8.83
+2024,Nova Scotia,Fruits,5.05
+2024,Nova Scotia,Other,5.89
 2024,Nova Scotia,Pork,8.9
-2024,Nova Scotia,Sea Food,26.58
-2024,Nova Scotia,Vegetables,4.91
+2024,Nova Scotia,Sea food,26.58
+2024,Nova Scotia,Vegetables,2.76
 2024,Ontario,Beef,21.39
 2024,Ontario,Chicken,9.08
+2024,Ontario,Fruits,4.31
+2024,Ontario,Other,4.92
 2024,Ontario,Pork,8.44
-2024,Ontario,Sea Food,27.39
-2024,Ontario,Vegetables,4.4
+2024,Ontario,Sea food,27.39
+2024,Ontario,Vegetables,2.51
 2024,Prince Edward Island,Beef,22.55
 2024,Prince Edward Island,Chicken,8.86
+2024,Prince Edward Island,Fruits,5.18
+2024,Prince Edward Island,Other,5.88
 2024,Prince Edward Island,Pork,8.86
-2024,Prince Edward Island,Sea Food,26.76
-2024,Prince Edward Island,Vegetables,4.67
+2024,Prince Edward Island,Sea food,26.76
+2024,Prince Edward Island,Vegetables,2.81
 2024,Quebec,Beef,22.9
 2024,Quebec,Chicken,8.94
+2024,Quebec,Fruits,5.0
+2024,Quebec,Other,5.19
 2024,Quebec,Pork,8.51
-2024,Quebec,Sea Food,26.27
-2024,Quebec,Vegetables,4.34
+2024,Quebec,Sea food,26.27
+2024,Quebec,Vegetables,2.91
 2024,Saskatchewan,Beef,21.48
 2024,Saskatchewan,Chicken,10.46
+2024,Saskatchewan,Fruits,4.8
+2024,Saskatchewan,Other,5.56
 2024,Saskatchewan,Pork,9.03
-2024,Saskatchewan,Sea Food,23.43
-2024,Saskatchewan,Vegetables,4.96
+2024,Saskatchewan,Sea food,23.43
+2024,Saskatchewan,Vegetables,2.78
