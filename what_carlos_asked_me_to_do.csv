@@ -1,0 +1,161 @@
+,PROV,YEAR,FSCHHLDM,count,total,percent
+0,Alberta,2018,0.0,586,902,65.0
+1,Alberta,2018,1.0,61,902,6.8
+2,Alberta,2018,2.0,112,902,12.4
+3,Alberta,2018,3.0,143,902,15.9
+4,Alberta,2019,0.0,387,571,67.8
+5,Alberta,2019,1.0,31,571,5.4
+6,Alberta,2019,2.0,82,571,14.4
+7,Alberta,2019,3.0,71,571,12.4
+8,Alberta,2020,0.0,567,849,66.8
+9,Alberta,2020,1.0,52,849,6.1
+10,Alberta,2020,2.0,130,849,15.3
+11,Alberta,2020,3.0,100,849,11.8
+12,Alberta,2021,0.0,388,573,67.7
+13,Alberta,2021,1.0,38,573,6.6
+14,Alberta,2021,2.0,74,573,12.9
+15,Alberta,2021,3.0,73,573,12.7
+16,British Columbia,2018,0.0,856,1258,68.0
+17,British Columbia,2018,1.0,82,1258,6.5
+18,British Columbia,2018,2.0,161,1258,12.8
+19,British Columbia,2018,3.0,159,1258,12.6
+20,British Columbia,2019,0.0,627,895,70.1
+21,British Columbia,2019,1.0,54,895,6.0
+22,British Columbia,2019,2.0,119,895,13.3
+23,British Columbia,2019,3.0,95,895,10.6
+24,British Columbia,2020,0.0,888,1212,73.3
+25,British Columbia,2020,1.0,74,1212,6.1
+26,British Columbia,2020,2.0,148,1212,12.2
+27,British Columbia,2020,3.0,102,1212,8.4
+28,British Columbia,2021,0.0,741,1009,73.4
+29,British Columbia,2021,1.0,62,1009,6.1
+30,British Columbia,2021,2.0,108,1009,10.7
+31,British Columbia,2021,3.0,98,1009,9.7
+32,Manitoba,2018,0.0,660,919,71.8
+33,Manitoba,2018,1.0,55,919,6.0
+34,Manitoba,2018,2.0,111,919,12.1
+35,Manitoba,2018,3.0,93,919,10.1
+36,Manitoba,2019,0.0,494,680,72.6
+37,Manitoba,2019,1.0,44,680,6.5
+38,Manitoba,2019,2.0,75,680,11.0
+39,Manitoba,2019,3.0,67,680,9.9
+40,Manitoba,2020,0.0,840,1141,73.6
+41,Manitoba,2020,1.0,80,1141,7.0
+42,Manitoba,2020,2.0,127,1141,11.1
+43,Manitoba,2020,3.0,94,1141,8.2
+44,Manitoba,2021,0.0,548,740,74.1
+45,Manitoba,2021,1.0,48,740,6.5
+46,Manitoba,2021,2.0,87,740,11.8
+47,Manitoba,2021,3.0,57,740,7.7
+48,New Brunswick,2018,0.0,496,715,69.4
+49,New Brunswick,2018,1.0,51,715,7.1
+50,New Brunswick,2018,2.0,98,715,13.7
+51,New Brunswick,2018,3.0,70,715,9.8
+52,New Brunswick,2019,0.0,403,521,77.4
+53,New Brunswick,2019,1.0,34,521,6.5
+54,New Brunswick,2019,2.0,44,521,8.4
+55,New Brunswick,2019,3.0,40,521,7.7
+56,New Brunswick,2020,0.0,580,802,72.3
+57,New Brunswick,2020,1.0,55,802,6.9
+58,New Brunswick,2020,2.0,93,802,11.6
+59,New Brunswick,2020,3.0,74,802,9.2
+60,New Brunswick,2021,0.0,395,544,72.6
+61,New Brunswick,2021,1.0,31,544,5.7
+62,New Brunswick,2021,2.0,70,544,12.9
+63,New Brunswick,2021,3.0,48,544,8.8
+64,Newfoundland and Labrador,2018,0.0,367,536,68.5
+65,Newfoundland and Labrador,2018,1.0,39,536,7.3
+66,Newfoundland and Labrador,2018,2.0,79,536,14.7
+67,Newfoundland and Labrador,2018,3.0,51,536,9.5
+68,Newfoundland and Labrador,2019,0.0,255,375,68.0
+69,Newfoundland and Labrador,2019,1.0,31,375,8.3
+70,Newfoundland and Labrador,2019,2.0,59,375,15.7
+71,Newfoundland and Labrador,2019,3.0,30,375,8.0
+72,Newfoundland and Labrador,2020,0.0,323,439,73.6
+73,Newfoundland and Labrador,2020,1.0,27,439,6.2
+74,Newfoundland and Labrador,2020,2.0,52,439,11.8
+75,Newfoundland and Labrador,2020,3.0,37,439,8.4
+76,Newfoundland and Labrador,2021,0.0,221,347,63.7
+77,Newfoundland and Labrador,2021,1.0,31,347,8.9
+78,Newfoundland and Labrador,2021,2.0,53,347,15.3
+79,Newfoundland and Labrador,2021,3.0,42,347,12.1
+80,Nova Scotia,2018,0.0,540,814,66.3
+81,Nova Scotia,2018,1.0,65,814,8.0
+82,Nova Scotia,2018,2.0,102,814,12.5
+83,Nova Scotia,2018,3.0,107,814,13.1
+84,Nova Scotia,2019,0.0,412,592,69.6
+85,Nova Scotia,2019,1.0,40,592,6.8
+86,Nova Scotia,2019,2.0,74,592,12.5
+87,Nova Scotia,2019,3.0,66,592,11.1
+88,Nova Scotia,2020,0.0,604,815,74.1
+89,Nova Scotia,2020,1.0,50,815,6.1
+90,Nova Scotia,2020,2.0,100,815,12.3
+91,Nova Scotia,2020,3.0,61,815,7.5
+92,Nova Scotia,2021,0.0,428,611,70.0
+93,Nova Scotia,2021,1.0,48,611,7.9
+94,Nova Scotia,2021,2.0,84,611,13.7
+95,Nova Scotia,2021,3.0,51,611,8.3
+96,Ontario,2018,0.0,1615,2421,66.7
+97,Ontario,2018,1.0,184,2421,7.6
+98,Ontario,2018,2.0,347,2421,14.3
+99,Ontario,2018,3.0,275,2421,11.4
+100,Ontario,2019,0.0,1232,1803,68.3
+101,Ontario,2019,1.0,133,1803,7.4
+102,Ontario,2019,2.0,248,1803,13.8
+103,Ontario,2019,3.0,190,1803,10.5
+104,Ontario,2020,0.0,1764,2490,70.8
+105,Ontario,2020,1.0,165,2490,6.6
+106,Ontario,2020,2.0,320,2490,12.9
+107,Ontario,2020,3.0,241,2490,9.7
+108,Ontario,2021,0.0,1426,2042,69.8
+109,Ontario,2021,1.0,161,2042,7.9
+110,Ontario,2021,2.0,238,2042,11.7
+111,Ontario,2021,3.0,217,2042,10.6
+112,Prince Edward Island,2018,0.0,296,396,74.7
+113,Prince Edward Island,2018,1.0,24,396,6.1
+114,Prince Edward Island,2018,2.0,35,396,8.8
+115,Prince Edward Island,2018,3.0,41,396,10.4
+116,Prince Edward Island,2019,0.0,208,276,75.4
+117,Prince Edward Island,2019,1.0,15,276,5.4
+118,Prince Edward Island,2019,2.0,36,276,13.0
+119,Prince Edward Island,2019,3.0,17,276,6.2
+120,Prince Edward Island,2020,0.0,331,414,80.0
+121,Prince Edward Island,2020,1.0,22,414,5.3
+122,Prince Edward Island,2020,2.0,33,414,8.0
+123,Prince Edward Island,2020,3.0,28,414,6.8
+124,Prince Edward Island,2021,0.0,180,248,72.6
+125,Prince Edward Island,2021,1.0,17,248,6.9
+126,Prince Edward Island,2021,2.0,28,248,11.3
+127,Prince Edward Island,2021,3.0,23,248,9.3
+128,Quebec,2018,0.0,1664,2210,75.3
+129,Quebec,2018,1.0,152,2210,6.9
+130,Quebec,2018,2.0,243,2210,11.0
+131,Quebec,2018,3.0,151,2210,6.8
+132,Quebec,2019,0.0,1332,1738,76.6
+133,Quebec,2019,1.0,124,1738,7.1
+134,Quebec,2019,2.0,180,1738,10.4
+135,Quebec,2019,3.0,102,1738,5.9
+136,Quebec,2020,0.0,1675,2185,76.7
+137,Quebec,2020,1.0,172,2185,7.9
+138,Quebec,2020,2.0,223,2185,10.2
+139,Quebec,2020,3.0,115,2185,5.3
+140,Quebec,2021,0.0,1409,1828,77.1
+141,Quebec,2021,1.0,134,1828,7.3
+142,Quebec,2021,2.0,185,1828,10.1
+143,Quebec,2021,3.0,100,1828,5.5
+144,Saskatchewan,2018,0.0,524,760,68.9
+145,Saskatchewan,2018,1.0,59,760,7.8
+146,Saskatchewan,2018,2.0,96,760,12.6
+147,Saskatchewan,2018,3.0,81,760,10.7
+148,Saskatchewan,2019,0.0,435,587,74.1
+149,Saskatchewan,2019,1.0,38,587,6.5
+150,Saskatchewan,2019,2.0,63,587,10.7
+151,Saskatchewan,2019,3.0,51,587,8.7
+152,Saskatchewan,2020,0.0,555,768,72.3
+153,Saskatchewan,2020,1.0,51,768,6.6
+154,Saskatchewan,2020,2.0,85,768,11.1
+155,Saskatchewan,2020,3.0,77,768,10.0
+156,Saskatchewan,2021,0.0,380,531,71.6
+157,Saskatchewan,2021,1.0,23,531,4.3
+158,Saskatchewan,2021,2.0,55,531,10.4
+159,Saskatchewan,2021,3.0,73,531,13.7
